@@ -1,1 +1,7 @@
-
+{
+    "latestVersion": "1.0.0",
+    "minimumVersion": "1.0.0",
+    "downloadUrl": "https://github.com/trhtkfvi/Play-Launcher/releases/latest/download/PlayLauncher.exe",
+    "changelog": "https://raw.githubusercontent.com/trhtkfvi/Play-Launcher/main/changelogs/1.0.2.md",
+    "required": false
+}
