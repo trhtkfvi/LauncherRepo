@@ -1,1 +1,4608 @@
-
+{
+    "launcherVersion": "1.0.0",
+    "minecraftVersion": "1.20.1",
+    "forgeVersion": "47.4.10",
+    "minimumLauncherVersion": "1.0.0",
+    "maintenance": false,
+    "mods": [
+        {
+            "name": "Accessories",
+            "filename": "accessories-neoforge-1.0.0-beta.48+1.20.1.jar",
+            "provider": "modrinth",
+            "projectId": "jtmvUHXj",
+            "versionId": "ALKwAjwA",
+            "required": true,
+            "hash": "55df72e18d501be18fd4cbdea58babb1c8f9bbad3864336a3f6751f38b1357153b13db6690ac83997b0f316eb92fc9eeca5ea5dca9d53cc6631de30fec9389fe",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/jtmvUHXj/versions/ALKwAjwA/accessories-neoforge-1.0.0-beta.48%2B1.20.1.jar",
+            "minecraftVersions": [
+                "1.20.1"
+            ],
+            "loaders": [
+                "neoforge",
+                "forge"
+            ],
+            "releaseType": "beta",
+            "versionNumber": "1.0.0-beta48+1.20.1",
+            "dependencies": [
+                {
+                    "id": "9s6osm5g",
+                    "type": "REQUIRED"
+                }
+            ]
+        },
+        {
+            "name": "Applied Energistics 2",
+            "filename": "appliedenergistics2-forge-15.4.10.jar",
+            "provider": "modrinth",
+            "projectId": "XxWD5pD3",
+            "versionId": "7KVs6HMQ",
+            "required": true,
+            "hash": "edc08a999b57e80426c737efa5b50c6d19ab40cb03f752bc26e2912fe12b989cefd5feff519ce0d87a4717a74c22a99242263ee4de63c1c84f91306d156134ee",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/XxWD5pD3/versions/7KVs6HMQ/appliedenergistics2-forge-15.4.10.jar",
+            "minecraftVersions": [
+                "1.20.1"
+            ],
+            "loaders": [
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "15.4.10",
+            "dependencies": [
+                {
+                    "id": "tq47Uqpn",
+                    "type": "INCOMPATIBLE"
+                },
+                {
+                    "id": "Eyw0UxEx",
+                    "type": "OPTIONAL"
+                },
+                {
+                    "id": "6AQIaxuO",
+                    "type": "OPTIONAL"
+                },
+                {
+                    "id": "nfn13YXA",
+                    "type": "OPTIONAL"
+                },
+                {
+                    "id": "u6dRKJwZ",
+                    "type": "OPTIONAL"
+                },
+                {
+                    "id": "nvQzSEkH",
+                    "type": "OPTIONAL"
+                },
+                {
+                    "id": "Ck4E7v7R",
+                    "type": "REQUIRED"
+                }
+            ]
+        },
+        {
+            "name": "The Aether",
+            "filename": "aether-1.20.1-1.5.2-neoforge.jar",
+            "provider": "modrinth",
+            "projectId": "YhmgMVyu",
+            "versionId": "2411kUqF",
+            "required": true,
+            "hash": "60b23e439b244645eafda5f3ddd620ac37e94bd75441d2deea9c328e1e154362f48b08aff1959849a7428ae7664422723fdbdb12aaeddfd56409ba4b54a7eaaf",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/YhmgMVyu/versions/2411kUqF/aether-1.20.1-1.5.2-neoforge.jar",
+            "minecraftVersions": [
+                "1.20.1"
+            ],
+            "loaders": [
+                "neoforge",
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "1.20.1-1.5.2-neoforge",
+            "dependencies": [
+                {
+                    "id": "vvuO3ImH",
+                    "type": "EMBEDDED"
+                },
+                {
+                    "id": "sq1f0DCq",
+                    "type": "EMBEDDED"
+                }
+            ]
+        },
+        {
+            "name": "Alex's Caves",
+            "filename": "alexscaves-2.0.2.jar",
+            "provider": "modrinth",
+            "projectId": "U6GY0xp0",
+            "versionId": "lC8HHXOF",
+            "required": true,
+            "hash": "d23092cf507f4cf66ead45d7b393393ea83a9002056962ee6c341e91323ae39e10f2aefbbbc9f5e54409eb3ee522ad0c2dd5661077b09f1e37d034cfdd4333a0",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/U6GY0xp0/versions/lC8HHXOF/alexscaves-2.0.2.jar",
+            "minecraftVersions": [
+                "1.20.1"
+            ],
+            "loaders": [
+                "neoforge",
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "2.0.2",
+            "dependencies": [
+                {
+                    "id": "jJfV67b1",
+                    "type": "REQUIRED"
+                }
+            ]
+        },
+        {
+            "name": "Alex's Mobs",
+            "filename": "alexsmobs-1.22.9.jar",
+            "provider": "modrinth",
+            "projectId": "2cMuAZAp",
+            "versionId": "XoIASRVU",
+            "required": true,
+            "hash": "b50280057926d750f9ffbf6a8df36deb37529356895f6bf59f25d272ecf69afccec65ec1a5c3a8bfad24f9475c15b93c5ec4666447b1fce26a90c41445bbfb04",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/2cMuAZAp/versions/XoIASRVU/alexsmobs-1.22.9.jar",
+            "minecraftVersions": [
+                "1.20.1"
+            ],
+            "loaders": [
+                "neoforge",
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "1.22.9",
+            "dependencies": [
+                {
+                    "id": "jJfV67b1",
+                    "type": "REQUIRED"
+                }
+            ]
+        },
+        {
+            "name": "Amendments",
+            "filename": "amendments-1.20-2.2.5.jar",
+            "provider": "modrinth",
+            "projectId": "6iTJugQR",
+            "versionId": "73W8UHX3",
+            "required": true,
+            "hash": "7f1ebaefc4d71e523e92acd5e7b255695c7248695f9c89c393527146128c2780c4cdc079e3982485309dbf2a093dedd0a42177bed8242b641fd77692f211ef34",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/6iTJugQR/versions/73W8UHX3/amendments-1.20-2.2.5.jar",
+            "minecraftVersions": [
+                "1.20.1"
+            ],
+            "loaders": [
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "1.20-2.2.5",
+            "dependencies": [
+                {
+                    "id": "twkfQtEc",
+                    "type": "REQUIRED"
+                }
+            ]
+        },
+        {
+            "name": "Another Furniture",
+            "filename": "another_furniture-forge-1.20.1-3.0.4.jar",
+            "provider": "modrinth",
+            "projectId": "ulloLmqG",
+            "versionId": "S9tNKT5R",
+            "required": true,
+            "hash": "c57011a7e078cdb05ca05123d2ca3d01b1f3baca3555c067150e23d75268bb250b45a780da1488a49c08c46f6ed38e883f6cd47981babffe43b5f501984f1afc",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/ulloLmqG/versions/S9tNKT5R/another_furniture-forge-1.20.1-3.0.4.jar",
+            "minecraftVersions": [
+                "1.20.1"
+            ],
+            "loaders": [
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "3.0.4",
+            "dependencies": []
+        },
+        {
+            "name": "AppleSkin",
+            "filename": "appleskin-forge-mc1.20.1-2.5.1.jar",
+            "provider": "modrinth",
+            "projectId": "EsAfCjCV",
+            "versionId": "XdXDExVF",
+            "required": true,
+            "hash": "3176f928fb6c60d27f5edb610ca4ab0236175404eebf32797a1ec6cdd794bb294a260231579578536d03571377e43c6181adc75d8dd2c0733f17fce4f7e636b9",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/EsAfCjCV/versions/XdXDExVF/appleskin-forge-mc1.20.1-2.5.1.jar",
+            "minecraftVersions": [
+                "1.20.1"
+            ],
+            "loaders": [
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "2.5.1+mc1.20.1",
+            "dependencies": []
+        },
+        {
+            "name": "Architectury API",
+            "filename": "architectury-9.2.14-forge.jar",
+            "provider": "modrinth",
+            "projectId": "lhGA9TYQ",
+            "versionId": "1MKTLiiG",
+            "required": true,
+            "hash": "cf67f2050cafa00f0bee42e6d7bef77fdb808ac4f71742f7b4d6d5c1e6ffb49561a5a252f332d2b78a9767bdb5faa284611790dba303fbdc736ae36d794f61c7",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/lhGA9TYQ/versions/1MKTLiiG/architectury-9.2.14-forge.jar",
+            "minecraftVersions": [
+                "1.20",
+                "1.20.1"
+            ],
+            "loaders": [
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "9.2.14+forge",
+            "dependencies": []
+        },
+        {
+            "name": "Ars Nouveau",
+            "filename": "ars_nouveau-1.20.1-4.12.7-all.jar",
+            "provider": "modrinth",
+            "projectId": "TKB6INcv",
+            "versionId": "Hw2aD01e",
+            "required": true,
+            "hash": "f3e3abf260fb3ef4c5b6b7324c055802135f82f4c550986f4e93b1a186c9b495cd8b6396ed89ab088b95e6176c0b9e290ccc69a528c521cd1bff19935ac36836",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/TKB6INcv/versions/Hw2aD01e/ars_nouveau-1.20.1-4.12.7-all.jar",
+            "minecraftVersions": [
+                "1.20.1"
+            ],
+            "loaders": [
+                "neoforge",
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "4.12.7",
+            "dependencies": []
+        },
+        {
+            "name": "Athena",
+            "filename": "athena-forge-1.20.1-3.1.2.jar",
+            "provider": "modrinth",
+            "projectId": "b1ZV3DIJ",
+            "versionId": "DULOQFj7",
+            "required": true,
+            "hash": "5a71a1c220eafbfbdb570fa204454352b48d55f238db1a5b398a8c40f6b0fbd8c09a2f6c10def330abdf3daadaa24dfa52471f8de931a93fd99dc7d85b60960b",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/b1ZV3DIJ/versions/DULOQFj7/athena-forge-1.20.1-3.1.2.jar",
+            "minecraftVersions": [
+                "1.20.1"
+            ],
+            "loaders": [
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "3.1.2",
+            "dependencies": []
+        },
+        {
+            "name": "Automobility",
+            "filename": "automobility-0.4.2+1.20.1-forge.jar",
+            "provider": "modrinth",
+            "projectId": "rqIsPf9F",
+            "versionId": "46g3IiWw",
+            "required": true,
+            "hash": "96aec122a35e12891054f246435f0ff27b5e759942545e25839bb6da54e7b3544c81297bbe77d14692b0a31af9d5ab70d7c13de7e92e288b15abf9c7e8832ef4",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/rqIsPf9F/versions/46g3IiWw/automobility-0.4.2%2B1.20.1-forge.jar",
+            "minecraftVersions": [
+                "1.20",
+                "1.20.1"
+            ],
+            "loaders": [
+                "forge"
+            ],
+            "releaseType": "beta",
+            "versionNumber": "0.4.2+1.20.1-forge",
+            "dependencies": []
+        },
+        {
+            "name": "BaguetteLib",
+            "filename": "baguettelib-1.20.1-Forge-1.1.6.jar",
+            "provider": "modrinth",
+            "projectId": "OfKzpbRU",
+            "versionId": "vLbvKK04",
+            "required": true,
+            "hash": "ef0b00bfee28289e709ddc8f13eae5be0e67d95908b55e4ba2445e7282d1eb97a88ee36a3a92e3c3f15787424ae8f53bf0fab371282157195679f6349f73da31",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/OfKzpbRU/versions/vLbvKK04/baguettelib-1.20.1-Forge-1.1.6.jar",
+            "minecraftVersions": [
+                "1.20.1"
+            ],
+            "loaders": [
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "1.1.6",
+            "dependencies": []
+        },
+        {
+            "name": "Balm",
+            "filename": "balm-forge-1.20.1-7.3.41-all.jar",
+            "provider": "modrinth",
+            "projectId": "MBAkmtvl",
+            "versionId": "47ZbZoOg",
+            "required": true,
+            "hash": "2f1d334f90f6836114074cae09f915b13d459df164999b7faa71e1f2f520ee20bd27cfb8ea4cb3aeca9cc3c035c130d5a79982b42f0edec33e9411819ae5fbb4",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/MBAkmtvl/versions/47ZbZoOg/balm-forge-1.20.1-7.3.41-all.jar",
+            "minecraftVersions": [
+                "1.20",
+                "1.20.1"
+            ],
+            "loaders": [
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "7.3.41+forge-1.20.1",
+            "dependencies": []
+        },
+        {
+            "name": "Create: Big Contraptions",
+            "filename": "bigcontraptions-1.0.jar",
+            "provider": "modrinth",
+            "projectId": "jv0UKGOX",
+            "versionId": "1KkyaeYb",
+            "required": true,
+            "hash": "0adb0e52632706465a5fd51e3610a76a16fb37a29b306adac792a196b22a0fa227eab17f9f077edf05814a715dc9d164ef6a1a3ce7d8fb135417b3e06a4b61d8",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/jv0UKGOX/versions/1KkyaeYb/bigcontraptions-1.0.jar",
+            "minecraftVersions": [
+                "1.20.1"
+            ],
+            "loaders": [
+                "neoforge",
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "1.0",
+            "dependencies": []
+        },
+        {
+            "name": "Biomes O' Plenty",
+            "filename": "BiomesOPlenty-forge-1.20.1-19.0.0.96.jar",
+            "provider": "modrinth",
+            "projectId": "HXF82T3G",
+            "versionId": "jxUqRzSD",
+            "required": true,
+            "hash": "d23b4526f80ed88b9253b4cb28f9f2675744dcabfee9e19f3e33f5870b84b7fa1e3104ff1201d0b4408d6a8354195cbedee1ed42100c9778e1ffd32ddab5e55e",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/HXF82T3G/versions/jxUqRzSD/BiomesOPlenty-forge-1.20.1-19.0.0.96.jar",
+            "minecraftVersions": [
+                "1.20.1"
+            ],
+            "loaders": [
+                "forge"
+            ],
+            "releaseType": "beta",
+            "versionNumber": "19.0.0.96",
+            "dependencies": [
+                {
+                    "id": "kkmrDlKT",
+                    "type": "REQUIRED"
+                },
+                {
+                    "id": "s3dmwKy5",
+                    "type": "REQUIRED"
+                }
+            ]
+        },
+        {
+            "name": "Sit",
+            "filename": "sit-1.20.1-1.3.5.jar",
+            "provider": "modrinth",
+            "projectId": "VKXzIykF",
+            "versionId": "VWROLSl8",
+            "required": true,
+            "hash": "2b8ea51fa62a2f2c529f18fc0d3d3640bbdfdf6362498e4ab001f95193667a3e8380692e3347d936ecacbc9b6697df8b93ab690d6d2693774a3d42cf50281a75",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/VKXzIykF/versions/VWROLSl8/sit-1.20.1-1.3.5.jar",
+            "minecraftVersions": [
+                "1.20.1"
+            ],
+            "loaders": [
+                "neoforge",
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "v1.3.5",
+            "dependencies": []
+        },
+        {
+            "name": "Brewin' And Chewin'",
+            "filename": "BrewinAndChewin-1.20.1-3.2.1.jar",
+            "provider": "modrinth",
+            "projectId": "hIu9KJTT",
+            "versionId": "9myDFPCD",
+            "required": true,
+            "hash": "f784c2530f34e56e70a58ee7345e95abc79b312c39fbbef6339ab19dfd20e2842cd7414c5ef2395db2bfa0a9bb1036affc6a3be685b2b731ee3195b2d0d4eb5d",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/hIu9KJTT/versions/9myDFPCD/BrewinAndChewin-1.20.1-3.2.1.jar",
+            "minecraftVersions": [
+                "1.20.1"
+            ],
+            "loaders": [
+                "neoforge",
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "1.20.1-3.2.1",
+            "dependencies": [
+                {
+                    "id": "R2OftAxM",
+                    "type": "REQUIRED"
+                },
+                {
+                    "id": "u6dRKJwZ",
+                    "type": "OPTIONAL"
+                },
+                {
+                    "id": "fRiHVvU7",
+                    "type": "OPTIONAL"
+                }
+            ]
+        },
+        {
+            "name": "Caelus API",
+            "filename": "caelus-forge-3.2.0+1.20.1.jar",
+            "provider": "modrinth",
+            "projectId": "40FYwb4z",
+            "versionId": "mRry0DgY",
+            "required": true,
+            "hash": "906baad404c33288d8daf8937bc6a85d3bcc03db67a4a68395b8f01eea57f773420ff97919aadb08a7618b62b0c6c3db72270f9c3af836b822385464f509cf78",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/40FYwb4z/versions/mRry0DgY/caelus-forge-3.2.0%2B1.20.1.jar",
+            "minecraftVersions": [
+                "1.20",
+                "1.20.1"
+            ],
+            "loaders": [
+                "neoforge",
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "3.2.0+1.20.1",
+            "dependencies": []
+        },
+        {
+            "name": "Camera Mod",
+            "filename": "camera-forge-1.20.1-1.0.20.jar",
+            "provider": "modrinth",
+            "projectId": "oiuNWinn",
+            "versionId": "LgjYRUxt",
+            "required": true,
+            "hash": "0f02a16d8d7c7f13ad3a6d22a6b97bb371f5ada1eb6b51fa4d5b399449b074100507ca36874d7faf102afe30048275e1bb54e2cb938626d6a22b5c4a30f68e6c",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/oiuNWinn/versions/LgjYRUxt/camera-forge-1.20.1-1.0.20.jar",
+            "minecraftVersions": [
+                "1.20.1"
+            ],
+            "loaders": [
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "forge-1.20.1-1.0.20",
+            "dependencies": [
+                {
+                    "id": "nvQzSEkH",
+                    "type": "OPTIONAL"
+                },
+                {
+                    "id": "u6dRKJwZ",
+                    "type": "OPTIONAL"
+                }
+            ]
+        },
+        {
+            "name": "Carry On",
+            "filename": "carryon-forge-1.20.1-2.1.2.7.jar",
+            "provider": "modrinth",
+            "projectId": "joEfVgkn",
+            "versionId": "edGQD16r",
+            "required": true,
+            "hash": "4f75afb703dd71c322d4e2e27d28d7ab4afeb0c242bcee6d1eb5fef59ee4347352f1ca55f1826743957d2e95a951ed13884356485b0a979b14010915079e2c29",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/joEfVgkn/versions/edGQD16r/carryon-forge-1.20.1-2.1.2.7.jar",
+            "minecraftVersions": [
+                "1.20",
+                "1.20.1"
+            ],
+            "loaders": [
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "2.1.2.7",
+            "dependencies": []
+        },
+        {
+            "name": "Create: Gunsmithing",
+            "filename": "create-gunsmithing-1.20.1-1.4.4.jar",
+            "provider": "modrinth",
+            "projectId": "7KCNsGPM",
+            "versionId": "lRl1yj85",
+            "required": true,
+            "hash": "90c86f447617ba3e1fd21617c7dc27e0fd06ea7ff5c2dab6059d3b6c21905ced476be0235bc0a8253aac4a9f79ce2b781f45f47e61076f7cc9283774ef9adf8d",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/7KCNsGPM/versions/lRl1yj85/create-gunsmithing-1.20.1-1.4.4.jar",
+            "minecraftVersions": [
+                "1.20.1"
+            ],
+            "loaders": [
+                "neoforge",
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "1.4.4",
+            "dependencies": []
+        },
+        {
+            "name": "Chat Animation [Smooth Chat]",
+            "filename": "chatanimation-forge-1.3.0+mc1.20.1.jar",
+            "provider": "modrinth",
+            "projectId": "DnNYdJsx",
+            "versionId": "RT4PqcOH",
+            "required": true,
+            "hash": "82c1567d6ff0c28f389c37fa2a8fb19f76c0bc26082c8c955cc01b8e1e385bab90e463d8612021d5a5116705730539d87116cd6a5a4398caa4e17bc4f4c99025",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/DnNYdJsx/versions/RT4PqcOH/chatanimation-forge-1.3.0%2Bmc1.20.1.jar",
+            "minecraftVersions": [
+                "1.20.1"
+            ],
+            "loaders": [
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "1.3.0+forge-1.20.1",
+            "dependencies": []
+        },
+        {
+            "name": "Chipped",
+            "filename": "chipped-forge-1.20.1-3.0.7.jar",
+            "provider": "modrinth",
+            "projectId": "BAscRYKm",
+            "versionId": "pi3f4er3",
+            "required": true,
+            "hash": "be1871655e213cf488d5049058200e03655f63b5922b6031af142d79d8958dca6653e7fa501f1aa2fda5544ad44a4f593521a7927a516e99579406a23a187045",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/BAscRYKm/versions/pi3f4er3/chipped-forge-1.20.1-3.0.7.jar",
+            "minecraftVersions": [
+                "1.20.1"
+            ],
+            "loaders": [
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "3.0.7",
+            "dependencies": [
+                {
+                    "id": "b1ZV3DIJ",
+                    "type": "REQUIRED"
+                },
+                {
+                    "id": "G1hIVOrD",
+                    "type": "REQUIRED"
+                }
+            ]
+        },
+        {
+            "name": "(Sodium) Chloride",
+            "filename": "chloride-FORGE-mc1.20.1-v1.8.1.jar",
+            "provider": "modrinth",
+            "projectId": "yD9qW65f",
+            "versionId": "UDrXQjce",
+            "required": true,
+            "hash": "2fa5393ab4562bc94a938d72fd6045c5d99f81cfa90ed67e5ae09816447c27f974916b45506c0ba1456d07d30b0172c1d20ad089ec5eafcbb10ef278a29bffdd",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/yD9qW65f/versions/UDrXQjce/chloride-FORGE-mc1.20.1-v1.8.1.jar",
+            "minecraftVersions": [
+                "1.20.1"
+            ],
+            "loaders": [
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "1.8.1-FORGE-1.20.1",
+            "dependencies": [
+                {
+                    "id": "sk9rgfiA",
+                    "type": "REQUIRED"
+                },
+                {
+                    "id": "uvlgIwBD",
+                    "type": "INCOMPATIBLE"
+                }
+            ]
+        },
+        {
+            "name": "Chunky",
+            "filename": "Chunky-1.3.146.jar",
+            "provider": "modrinth",
+            "projectId": "fALzjamp",
+            "versionId": "4FTDk9wv",
+            "required": true,
+            "hash": "13ef9d5bfea1895118eec45aa3071e2d79408241f29990624f67e157d4c525391753b0a1539ff3359dad79a6e5ab5e0b84fffbe528bdefcaaefd579ec794d9c9",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/fALzjamp/versions/4FTDk9wv/Chunky-1.3.146.jar",
+            "minecraftVersions": [
+                "1.20",
+                "1.20.1",
+                "1.20.2",
+                "1.20.3",
+                "1.20.4"
+            ],
+            "loaders": [
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "1.3.146",
+            "dependencies": []
+        },
+        {
+            "name": "Citadel",
+            "filename": "citadel-2.6.3-1.20.1.jar",
+            "provider": "modrinth",
+            "projectId": "jJfV67b1",
+            "versionId": "lTAAe4sZ",
+            "required": true,
+            "hash": "42e3fa0ddefb1ebdbba4242d81caede834cd0bbd96e4e90b12b2157a5b07c68b625f64046de1f9e1ad4d6056d3536e17207be5f4b24960582052d713b13f22c0",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/jJfV67b1/versions/lTAAe4sZ/citadel-2.6.3-1.20.1.jar",
+            "minecraftVersions": [
+                "1.20.1"
+            ],
+            "loaders": [
+                "neoforge",
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "2.6.3",
+            "dependencies": []
+        },
+        {
+            "name": "Cloth Config v15 API",
+            "filename": "cloth-config-11.1.136-forge.jar",
+            "provider": "modrinth",
+            "projectId": "9s6osm5g",
+            "versionId": "t8TXrZvZ",
+            "required": true,
+            "hash": "137c4af99c53d77317cbfb1cc8c49fc2761708b49d1992f51fd846960df41dde3a83519c987e081508d4ed90c603566f3d5a6cb620ad9d85b8f4de59aa9115ef",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/9s6osm5g/versions/t8TXrZvZ/cloth-config-11.1.136-forge.jar",
+            "minecraftVersions": [
+                "1.20",
+                "1.20.1"
+            ],
+            "loaders": [
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "11.1.136+forge",
+            "dependencies": []
+        },
+        {
+            "name": "Comforts",
+            "filename": "comforts-forge-6.4.0+1.20.1.jar",
+            "provider": "modrinth",
+            "projectId": "SaCpeal4",
+            "versionId": "gBDsc134",
+            "required": true,
+            "hash": "5f8bc01de36814bbea454ad306efd6b7ae9de933117fe8c1197a13454804e4b71ddd0685a24ace45b81527a8489d4081f7e75b6c5d3f7d7c8f791520407fac09",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/SaCpeal4/versions/gBDsc134/comforts-forge-6.4.0%2B1.20.1.jar",
+            "minecraftVersions": [
+                "1.20",
+                "1.20.1"
+            ],
+            "loaders": [
+                "neoforge",
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "6.4.0+1.20.1",
+            "dependencies": []
+        },
+        {
+            "name": "Connected Glass",
+            "filename": "connectedglass-1.1.14-forge-mc1.20.1.jar",
+            "provider": "modrinth",
+            "projectId": "DghO0R02",
+            "versionId": "5rewtxLD",
+            "required": true,
+            "hash": "9dee35f38a90c983c1b8812bf2a4eb13e58331697af36b5ddb3467d3115b5d2be601f5b323c88cfddc51014aaa524b2b1d93d674ffd3db55a16e369cb3232e82",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/DghO0R02/versions/5rewtxLD/connectedglass-1.1.14-forge-mc1.20.1.jar",
+            "minecraftVersions": [
+                "1.20",
+                "1.20.1"
+            ],
+            "loaders": [
+                "neoforge",
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "1.1.14-forge-mc1.20.1",
+            "dependencies": [
+                {
+                    "id": "rOUBggPv",
+                    "type": "REQUIRED"
+                },
+                {
+                    "id": "B0g2vT6l",
+                    "type": "OPTIONAL"
+                },
+                {
+                    "id": "p19vrgc2",
+                    "type": "REQUIRED"
+                }
+            ]
+        },
+        {
+            "name": "Construction Wand",
+            "filename": "constructionwand-1.20.1-2.11.jar",
+            "provider": "modrinth",
+            "projectId": "bV2crgLh",
+            "versionId": "XCgKj8gL",
+            "required": true,
+            "hash": "a029f801dbcfacd230650fd018f7424535454fb2062d796cbe9cd622a9fe4ae80cb0d7883faa2775c27ed73a21dffbadb44ddc32ce1293ec098654393e7b1c95",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/bV2crgLh/versions/XCgKj8gL/constructionwand-1.20.1-2.11.jar",
+            "minecraftVersions": [
+                "1.20",
+                "1.20.1"
+            ],
+            "loaders": [
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "1.20.1-2.11",
+            "dependencies": []
+        },
+        {
+            "name": "Controlling",
+            "filename": "Controlling-forge-1.20.1-12.0.2.jar",
+            "provider": "modrinth",
+            "projectId": "xv94TkTM",
+            "versionId": "LH6Bi6Am",
+            "required": true,
+            "hash": "3945bf3f6d843957f13584dfc70bede253d1e48f0dcb96f647fbcc6fcd3d1748a0dd9c6ca5c882e07a41f98eb84057934f51e43ab6023ed0a19695de2e6fe9f5",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/xv94TkTM/versions/LH6Bi6Am/Controlling-forge-1.20.1-12.0.2.jar",
+            "minecraftVersions": [
+                "1.20.1"
+            ],
+            "loaders": [
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "12.0.2",
+            "dependencies": [
+                {
+                    "id": "fuuu3xnx",
+                    "type": "REQUIRED"
+                }
+            ]
+        },
+        {
+            "name": "CorgiLib",
+            "filename": "Corgilib-Forge-1.20.1-4.0.3.4.jar",
+            "provider": "modrinth",
+            "projectId": "ziOp6EO8",
+            "versionId": "QQhzscay",
+            "required": true,
+            "hash": "1c256d44dc4a80b37b747cc7ded2a12e4e6580e093b8a28fd5645bfe46d2d332ad2f84588900908e2c668ed42af44c036fe45401d5f22e1598745d5613cbb367",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/ziOp6EO8/versions/QQhzscay/Corgilib-Forge-1.20.1-4.0.3.4.jar",
+            "minecraftVersions": [
+                "1.20.1"
+            ],
+            "loaders": [
+                "neoforge",
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "1.20.1-4.0.3.4-forge",
+            "dependencies": []
+        },
+        {
+            "name": "CoroUtil",
+            "filename": "coroutil-forge-1.20.1-1.3.7.jar",
+            "provider": "modrinth",
+            "projectId": "rLLJ1OZM",
+            "versionId": "6rPDKAT8",
+            "required": true,
+            "hash": "37a13eaa68579dd45204ebdfa43b2909123a2e5e875a2ca51da0d0882d4c524be1e95fce4bb26db21901b7d100ad9363968814e3566d44b5afce8fb8e8088057",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/rLLJ1OZM/versions/6rPDKAT8/coroutil-forge-1.20.1-1.3.7.jar",
+            "minecraftVersions": [
+                "1.20.1"
+            ],
+            "loaders": [
+                "neoforge",
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "1.20.1-1.3.7",
+            "dependencies": []
+        },
+        {
+            "name": "Corpse Retriever",
+            "filename": "corpsecommand-1.0.0-forge-1.20.1.jar",
+            "provider": "modrinth",
+            "projectId": "AB7z3mY6",
+            "versionId": "oJqpDq4E",
+            "required": true,
+            "hash": "735b301147d1ce8dd2adc00dffb1b93210421f96d17010f81370feb8803e5a3c9f91c6746346dfed08037d9eab66c33dbe78c2f545d8dcb25aadf908a7b6bfc7",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/AB7z3mY6/versions/oJqpDq4E/corpsecommand-1.0.0-forge-1.20.1.jar",
+            "minecraftVersions": [
+                "1.20.1"
+            ],
+            "loaders": [
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "1.20.1-1.0.0-Forge",
+            "dependencies": [
+                {
+                    "id": "WrpuIfhw",
+                    "type": "REQUIRED"
+                }
+            ]
+        },
+        {
+            "name": "Corpse x Curios API Compat",
+            "filename": "corpsecurioscompat-1.20.1-Forge-4.0.1.jar",
+            "provider": "modrinth",
+            "projectId": "pJGcKPh1",
+            "versionId": "gC9IUqZM",
+            "required": true,
+            "hash": "75768077f9f1820b75e7b1a02a61317817dd96f4c4f07fe78f3482161ceb249a2efe6d8dd452146eb697c6c2fc071faf46f52db2e2552a2ab9df9a3c09a707ad",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/pJGcKPh1/versions/gC9IUqZM/corpsecurioscompat-1.20.1-Forge-4.0.1.jar",
+            "minecraftVersions": [
+                "1.20.1"
+            ],
+            "loaders": [
+                "forge"
+            ],
+            "releaseType": "beta",
+            "versionNumber": "4.0.1",
+            "dependencies": [
+                {
+                    "id": "OfKzpbRU",
+                    "type": "REQUIRED"
+                },
+                {
+                    "id": "vvuO3ImH",
+                    "type": "REQUIRED"
+                },
+                {
+                    "id": "WrpuIfhw",
+                    "type": "REQUIRED"
+                }
+            ]
+        },
+        {
+            "name": "Corpse",
+            "filename": "corpse-forge-1.20.1-1.0.23.jar",
+            "provider": "modrinth",
+            "projectId": "WrpuIfhw",
+            "versionId": "7fc0hJN6",
+            "required": true,
+            "hash": "c9ddf7d243aac2cbf88fc2fd7e71ce4470354765d602dadf0fa68105a0561cb14b482c60d9e04084845bcf2237442d913888dcfb45b392bc700b0f3470517c96",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/WrpuIfhw/versions/7fc0hJN6/corpse-forge-1.20.1-1.0.23.jar",
+            "minecraftVersions": [
+                "1.20.1"
+            ],
+            "loaders": [
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "forge-1.20.1-1.0.23",
+            "dependencies": [
+                {
+                    "id": "nvQzSEkH",
+                    "type": "OPTIONAL"
+                },
+                {
+                    "id": "u6dRKJwZ",
+                    "type": "OPTIONAL"
+                }
+            ]
+        },
+        {
+            "name": "Crash Assistant",
+            "filename": "CrashAssistant-forge-1.19-1.20.1-1.11.11.jar",
+            "provider": "modrinth",
+            "projectId": "ix1qq8Ux",
+            "versionId": "c6RgxM3C",
+            "required": true,
+            "hash": "6e953e74544fc9530ae55f3c0023c0f8b289e4ab47188f3ef227a7c69386cc0c966da6c7e0d1a7596be33b5608b72ae7116a51075ad581b4b929d6206f389dbb",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/ix1qq8Ux/versions/c6RgxM3C/CrashAssistant-forge-1.19-1.20.1-1.11.11.jar",
+            "minecraftVersions": [
+                "1.19",
+                "1.19.1",
+                "1.19.2",
+                "1.19.3",
+                "1.19.4",
+                "1.20",
+                "1.20.1"
+            ],
+            "loaders": [
+                "neoforge",
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "1.11.11",
+            "dependencies": []
+        },
+        {
+            "name": "Crate Delight",
+            "filename": "cratedelight-26.07.01-1.20-forge.jar",
+            "provider": "modrinth",
+            "projectId": "9rlXSyLg",
+            "versionId": "jCMNhRLo",
+            "required": true,
+            "hash": "8401c6eed0ebfa7ef5adbc38e17114ecb51ddec55e4fe12bce20d421ca5f462aa7b6036751f76f4a3f5cdf0ca6ef0a149c33390ebf762b5e87491a90a48bc596",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/9rlXSyLg/versions/jCMNhRLo/cratedelight-26.07.01-1.20-forge.jar",
+            "minecraftVersions": [
+                "1.20",
+                "1.20.1",
+                "1.20.2",
+                "1.20.3"
+            ],
+            "loaders": [
+                "neoforge",
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "26.07.01-1.20-forge",
+            "dependencies": []
+        },
+        {
+            "name": "Create: Applied Kinetics",
+            "filename": "createappliedkinetics-1.5.1-1.20.1.jar",
+            "provider": "modrinth",
+            "projectId": "mYGTCuZY",
+            "versionId": "DjaJgxhC",
+            "required": true,
+            "hash": "c970c66a3b308691ba960d31d2fb0d2e50c372b83ad86f7395633d1b71518615046d9233a2fd947ceb06181e0aa5875ec15e4ec3072d41a71b02cb49ab1832a7",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/mYGTCuZY/versions/DjaJgxhC/createappliedkinetics-1.5.1-1.20.1.jar",
+            "minecraftVersions": [
+                "1.20.1"
+            ],
+            "loaders": [
+                "neoforge",
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "1.5.1-1.20.1",
+            "dependencies": [
+                {
+                    "id": "XxWD5pD3",
+                    "type": "REQUIRED"
+                },
+                {
+                    "id": "LNytGWDc",
+                    "type": "REQUIRED"
+                }
+            ]
+        },
+        {
+            "name": "Create: Armory",
+            "filename": "createarmoryv0.6.1n.jar",
+            "provider": "modrinth",
+            "projectId": "MIxwm5GN",
+            "versionId": "pDrZUeDf",
+            "required": true,
+            "hash": "ea6a58593be6e9d8bd9c312a6ec4526ea3a6cbf80d10eef5ae110e7b9242e67fa81b030034df10ad90a85a2aab931ddc61b5722c7c39617b183d023853cdd75e",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/MIxwm5GN/versions/pDrZUeDf/createarmoryv0.6.1n.jar",
+            "minecraftVersions": [
+                "1.20.1"
+            ],
+            "loaders": [
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "0.6.1n",
+            "dependencies": [
+                {
+                    "id": "LNytGWDc",
+                    "type": "REQUIRED"
+                },
+                {
+                    "id": "8BmcQJ2H",
+                    "type": "REQUIRED"
+                }
+            ]
+        },
+        {
+            "name": "Create: Central Kitchen",
+            "filename": "create_central_kitchen-1.20.1-for-create-6.0.8-1.5.0.jar",
+            "provider": "modrinth",
+            "projectId": "btq68HMO",
+            "versionId": "Z4kwyYKV",
+            "required": true,
+            "hash": "b3ee7c77f6633049c3090e2123bf85c46e9fb81796227e56a50c8fe4bcf68582605624813e8b10e771e9eb19693a1be66f008fe151163fbe34e81df1edac19d0",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/btq68HMO/versions/Z4kwyYKV/create_central_kitchen-1.20.1-for-create-6.0.8-1.5.0.jar",
+            "minecraftVersions": [
+                "1.20.1"
+            ],
+            "loaders": [
+                "neoforge",
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "1.5.0",
+            "dependencies": [
+                {
+                    "id": "LNytGWDc",
+                    "type": "REQUIRED"
+                }
+            ]
+        },
+        {
+            "name": "Create: Connected",
+            "filename": "create_connected-1.2.3-mc1.20.1-all.jar",
+            "provider": "modrinth",
+            "projectId": "Vg5TIO6d",
+            "versionId": "6gnvaVkN",
+            "required": true,
+            "hash": "eed01b0d7c96b023bf838208819f52d57606089ce6c1f0e824b212bb53b4e00e35d7d3c7066f125e541799b64c0766b526045ced59bb0dbdce9a7075ab3bdfce",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/Vg5TIO6d/versions/6gnvaVkN/create_connected-1.2.3-mc1.20.1-all.jar",
+            "minecraftVersions": [
+                "1.20.1"
+            ],
+            "loaders": [
+                "neoforge",
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "1.2.3-mc1.20.1",
+            "dependencies": [
+                {
+                    "id": "u6dRKJwZ",
+                    "type": "OPTIONAL"
+                },
+                {
+                    "id": "LNytGWDc",
+                    "type": "REQUIRED"
+                }
+            ]
+        },
+        {
+            "name": "Create Contraption Terminals",
+            "filename": "createcontraptionterminals-1.20-1.2.0.jar",
+            "provider": "modrinth",
+            "projectId": "gOPAFzp0",
+            "versionId": "Rdo5tUmb",
+            "required": true,
+            "hash": "bd3a8ba5498c6c7939271bb03ee8c595e71010847b11dd281833c085a53e24ce8e1a6c79654a1498f8828b5afa672ccb4431d9a906235f810e5df3c2e442c222",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/gOPAFzp0/versions/Rdo5tUmb/createcontraptionterminals-1.20-1.2.0.jar",
+            "minecraftVersions": [
+                "1.20.1"
+            ],
+            "loaders": [
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "1.20.1-1.2.0",
+            "dependencies": [
+                {
+                    "id": "XZNI4Cpy",
+                    "type": "REQUIRED"
+                },
+                {
+                    "id": "LNytGWDc",
+                    "type": "REQUIRED"
+                }
+            ]
+        },
+        {
+            "name": "Create: Curios Jetpack & Backtank",
+            "filename": "create_jetpack_curios-1.2.0-forge-1.20.1.jar",
+            "provider": "modrinth",
+            "projectId": "BBhCMftF",
+            "versionId": "MmHHKvju",
+            "required": true,
+            "hash": "28035c2e8123a651b0736382c50294717aecbf4a7610c7cf76f5b065fd8058c108517daf8a04dc9d910737ecddfe3f18af79a379f8dfb4405585f440711cf862",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/BBhCMftF/versions/MmHHKvju/create_jetpack_curios-1.2.0-forge-1.20.1.jar",
+            "minecraftVersions": [
+                "1.20",
+                "1.20.1"
+            ],
+            "loaders": [
+                "neoforge",
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "1.2.0",
+            "dependencies": [
+                {
+                    "id": "LNytGWDc",
+                    "type": "REQUIRED"
+                },
+                {
+                    "id": "vvuO3ImH",
+                    "type": "REQUIRED"
+                },
+                {
+                    "id": "UbFnAd4l",
+                    "type": "OPTIONAL"
+                }
+            ]
+        },
+        {
+            "name": "Create: Diesel Generators",
+            "filename": "createdieselgenerators-1.20.1-1.3.12.jar",
+            "provider": "modrinth",
+            "projectId": "ZM3tt6p1",
+            "versionId": "DTQVvA5H",
+            "required": true,
+            "hash": "fc9aebaa5b654078be4736e1c35cc34edda0986db75fc3ce1391a86a499df6dcb3958d9854d402f5479eeb38d0f9388223b0359a34d594589e75ed3a58dd45a1",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/ZM3tt6p1/versions/DTQVvA5H/createdieselgenerators-1.20.1-1.3.12.jar",
+            "minecraftVersions": [
+                "1.20.1"
+            ],
+            "loaders": [
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "1.20.1-1.3.12",
+            "dependencies": [
+                {
+                    "id": "LNytGWDc",
+                    "type": "REQUIRED"
+                }
+            ]
+        },
+        {
+            "name": "Create: Enchantment Industry",
+            "filename": "create_enchantment_industry-1.4.0-for-create-6.0.8.jar",
+            "provider": "modrinth",
+            "projectId": "JWGBpFUP",
+            "versionId": "fBncZZdn",
+            "required": true,
+            "hash": "13b77b8756df87c3d94c5a4a4df89e783cf62690f4ab6f97d2e1fb44a56ae3a4b8dbaca3aada104c697a8f5d132ab316ed243dff41b6a66a060fc3feb500c710",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/JWGBpFUP/versions/fBncZZdn/create_enchantment_industry-1.4.0-for-create-6.0.8.jar",
+            "minecraftVersions": [
+                "1.20.1"
+            ],
+            "loaders": [
+                "neoforge",
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "1.4.0",
+            "dependencies": [
+                {
+                    "id": "LNytGWDc",
+                    "type": "REQUIRED"
+                }
+            ]
+        },
+        {
+            "name": "Create Goggles",
+            "filename": "creategoggles-1.20.1-6.1.1-[FORGE].jar",
+            "provider": "modrinth",
+            "projectId": "L1RT5SJc",
+            "versionId": "Nc2Ag5HT",
+            "required": true,
+            "hash": "29d509b747c502704e8a3c43dba921a3499d4eb6500d57d06f70a8da2e1e12804dafce4da5c2ce297f37f1d62d6900cb3b6dbec52b651b88420755ae9c76c848",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/L1RT5SJc/versions/Nc2Ag5HT/creategoggles-1.20.1-6.1.1-%5BFORGE%5D.jar",
+            "minecraftVersions": [
+                "1.20.1"
+            ],
+            "loaders": [
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "6.1.1",
+            "dependencies": [
+                {
+                    "id": "lhGA9TYQ",
+                    "type": "REQUIRED"
+                },
+                {
+                    "id": "Ce6I4WUE",
+                    "type": "OPTIONAL"
+                },
+                {
+                    "id": "LNytGWDc",
+                    "type": "REQUIRED"
+                }
+            ]
+        },
+        {
+            "name": "Create Jetpack",
+            "filename": "create_jetpack-forge-4.4.6.jar",
+            "provider": "modrinth",
+            "projectId": "UbFnAd4l",
+            "versionId": "Ft2vxKG4",
+            "required": true,
+            "hash": "a0536411e314a505938b2bbef80b9b1bfb504b29e04c1791ba87414060a60731ae29de6deb32e352ccf65e6c14a4675ed2ee4e4414afa526a559aa04e51fe606",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/UbFnAd4l/versions/Ft2vxKG4/create_jetpack-forge-4.4.6.jar",
+            "minecraftVersions": [
+                "1.20.1"
+            ],
+            "loaders": [
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "4.4.6",
+            "dependencies": [
+                {
+                    "id": "LNytGWDc",
+                    "type": "REQUIRED"
+                }
+            ]
+        },
+        {
+            "name": "Create: Misc and Things",
+            "filename": "create_things_and_misc-4.1.0-forge-1.20.1.jar",
+            "provider": "modrinth",
+            "projectId": "uWrs8XlB",
+            "versionId": "GaewIQ6Q",
+            "required": true,
+            "hash": "15f31fb536eea5efdd61a720b57c45160884983a2771e9bf6f7e254f905a65a70e991f59f93432ed2eec2bb94a879d8653371194b35ffeaf042d0c117a98a97c",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/uWrs8XlB/versions/GaewIQ6Q/create_things_and_misc-4.1.0-forge-1.20.1.jar",
+            "minecraftVersions": [
+                "1.20.1"
+            ],
+            "loaders": [
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "4.1.0",
+            "dependencies": [
+                {
+                    "id": "LNytGWDc",
+                    "type": "REQUIRED"
+                }
+            ]
+        },
+        {
+            "name": "Create Stuff 'N Additions",
+            "filename": "create-stuff-additions1.20.1_v2.1.2.jar",
+            "provider": "modrinth",
+            "projectId": "aq9qUUQG",
+            "versionId": "uzmWSzyy",
+            "required": true,
+            "hash": "43655f030a69266ed3a633771e555340546bafb8695cdbf25307d2bb9d35f1e10a65e0824acf37435dbed02cc8cfd37adf227cb94df71931682c7a2e576c1a74",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/aq9qUUQG/versions/uzmWSzyy/create-stuff-additions1.20.1_v2.1.2.jar",
+            "minecraftVersions": [
+                "1.20.1"
+            ],
+            "loaders": [
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "2.1.2",
+            "dependencies": []
+        },
+        {
+            "name": "Create: Tweaked Controllers",
+            "filename": "create_tweaked_controllers-1.20.1-1.2.7.jar",
+            "provider": "modrinth",
+            "projectId": "H6bJ8Ju4",
+            "versionId": "8XoqeODw",
+            "required": true,
+            "hash": "fe776166034fda41a2aea73b952d7d0c79f0da89894f8f8f1a55aeeb5c0f2b4985b728753cf9691b3d0dae653e39400f7c17e09f59317f32618f4cae2be37f43",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/H6bJ8Ju4/versions/8XoqeODw/create_tweaked_controllers-1.20.1-1.2.7.jar",
+            "minecraftVersions": [
+                "1.20.1"
+            ],
+            "loaders": [
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "1.20.1-1.2.7",
+            "dependencies": []
+        },
+        {
+            "name": "Create: Vibrant Vaults",
+            "filename": "create_vibrant_vaults-0.3.2.jar",
+            "provider": "modrinth",
+            "projectId": "hddN8ksR",
+            "versionId": "FH10Yn2O",
+            "required": true,
+            "hash": "a6ba91314ff60c639d693b9aa411aabb5d3f871411363676f4fb598efe565de7179a67fe47f36aac2185dfb6768943de63476dde740923ed7821cc1952e357e8",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/hddN8ksR/versions/FH10Yn2O/create_vibrant_vaults-0.3.2.jar",
+            "minecraftVersions": [
+                "1.20.1"
+            ],
+            "loaders": [
+                "neoforge",
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "0.3.2",
+            "dependencies": [
+                {
+                    "id": "LNytGWDc",
+                    "type": "REQUIRED"
+                }
+            ]
+        },
+        {
+            "name": "Create",
+            "filename": "create-1.20.1-6.0.8.jar",
+            "provider": "modrinth",
+            "projectId": "LNytGWDc",
+            "versionId": "8amzvn9x",
+            "required": true,
+            "hash": "5b51f5d31437d9bfbf221b67459abd87260d284874e1e23b7ed1d522b23a48059a3b1d2c1c541428da35dc6be15561b4f3c7f36aac6df3a0e8db6a278f6b0316",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/LNytGWDc/versions/8amzvn9x/create-1.20.1-6.0.8.jar",
+            "minecraftVersions": [
+                "1.20.1"
+            ],
+            "loaders": [
+                "neoforge",
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "mc1.20.1-6.0.8",
+            "dependencies": []
+        },
+        {
+            "name": "Create Crafts & Additions",
+            "filename": "createaddition-1.20.1-1.3.3.jar",
+            "provider": "modrinth",
+            "projectId": "kU1G12Nn",
+            "versionId": "9LgyB6Yb",
+            "required": true,
+            "hash": "a34f5c3b0226069d2882a3e23ba0e364a78bc5d26983b0cecea8d998718f454d3238ab7c5b4b3ef1749b6f2b26a4e427839c7c32468558fa7a8edb0edc727d10",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/kU1G12Nn/versions/9LgyB6Yb/createaddition-1.20.1-1.3.3.jar",
+            "minecraftVersions": [
+                "1.20.1"
+            ],
+            "loaders": [
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "forge-1.20.1-1.3.",
+            "dependencies": [
+                {
+                    "id": "gu7yAYhd",
+                    "type": "OPTIONAL"
+                },
+                {
+                    "id": "LNytGWDc",
+                    "type": "REQUIRED"
+                },
+                {
+                    "id": "u6dRKJwZ",
+                    "type": "OPTIONAL"
+                }
+            ]
+        },
+        {
+            "name": "CreativeCore",
+            "filename": "CreativeCore_FORGE_v2.12.39_mc1.20.1.jar",
+            "provider": "modrinth",
+            "projectId": "OsZiaDHq",
+            "versionId": "m9VEcxwz",
+            "required": true,
+            "hash": "6eb47ce94e00d2321deed8c646b81f0463b8a42e628fdfb07f3792c4bcb15fa7638ad3e52e332a0819c14a1346d71b6496dda64094f6b626a2dbfba0fba2d021",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/OsZiaDHq/versions/m9VEcxwz/CreativeCore_FORGE_v2.12.39_mc1.20.1.jar",
+            "minecraftVersions": [
+                "1.20.1"
+            ],
+            "loaders": [
+                "neoforge",
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "2.12.39",
+            "dependencies": []
+        },
+        {
+            "name": "Creeper Overhaul",
+            "filename": "creeperoverhaul-3.0.2-forge.jar",
+            "provider": "modrinth",
+            "projectId": "MI1LWe93",
+            "versionId": "Ap1DSAzz",
+            "required": true,
+            "hash": "ce8b526b0d673566ee1aecfe14521818b183d73dafde838b7b4a9376e629cb2bf3d36219c8a03e974c8d93550d387a3ea1e33b9ca64c26cd934ded937d065d94",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/MI1LWe93/versions/Ap1DSAzz/creeperoverhaul-3.0.2-forge.jar",
+            "minecraftVersions": [
+                "1.20",
+                "1.20.1"
+            ],
+            "loaders": [
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "3.0.2",
+            "dependencies": [
+                {
+                    "id": "G1hIVOrD",
+                    "type": "REQUIRED"
+                },
+                {
+                    "id": "8BmcQJ2H",
+                    "type": "REQUIRED"
+                },
+                {
+                    "id": "M1953qlQ",
+                    "type": "REQUIRED"
+                }
+            ]
+        },
+        {
+            "name": "Curios API",
+            "filename": "curios-forge-5.14.1+1.20.1.jar",
+            "provider": "modrinth",
+            "projectId": "vvuO3ImH",
+            "versionId": "IPQlZkz1",
+            "required": true,
+            "hash": "1373f95fd111c977db2f6adcef8e4eb486a2d926a3e17374692dee4ac3d65857de6446c16922b531aa5ace2c23c666a7fcc28c720b2917c1e04808d15648ba87",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/vvuO3ImH/versions/IPQlZkz1/curios-forge-5.14.1%2B1.20.1.jar",
+            "minecraftVersions": [
+                "1.20",
+                "1.20.1"
+            ],
+            "loaders": [
+                "neoforge",
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "5.14.1+1.20.1",
+            "dependencies": []
+        },
+        {
+            "name": "Delight Lib",
+            "filename": "delightlib-26.05.18-1.20-forge.jar",
+            "provider": "modrinth",
+            "projectId": "rmDY6fYt",
+            "versionId": "1lt5savO",
+            "required": true,
+            "hash": "096c39645f7d328b86b07a1dbc17c09efc294ddffdea918e867fb7f52038041534593f1fc58397cf087678178acf771386e5cafe64481c80f3f2a2a943bd37b5",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/rmDY6fYt/versions/1lt5savO/delightlib-26.05.18-1.20-forge.jar",
+            "minecraftVersions": [
+                "1.20",
+                "1.20.1"
+            ],
+            "loaders": [
+                "neoforge",
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "26.05.18-1.20-forge",
+            "dependencies": [
+                {
+                    "id": "R2OftAxM",
+                    "type": "REQUIRED"
+                }
+            ]
+        },
+        {
+            "name": "Dynamic FPS",
+            "filename": "dynamic-fps-3.11.4+minecraft-1.20.0-forge.jar",
+            "provider": "modrinth",
+            "projectId": "LQ3K71Q1",
+            "versionId": "EjdIWWqG",
+            "required": true,
+            "hash": "a8234d0c1b4c7a75c7b05b280a5a120dc090be2c252bf4235e34f53751aa74ea2c23614913f1fd7b43d4a841e96e178c8fd935a7630634316821139a056b3237",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/LQ3K71Q1/versions/EjdIWWqG/dynamic-fps-3.11.4%2Bminecraft-1.20.0-forge.jar",
+            "minecraftVersions": [
+                "1.20",
+                "1.20.1"
+            ],
+            "loaders": [
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "3.11.4",
+            "dependencies": [
+                {
+                    "id": "9s6osm5g",
+                    "type": "OPTIONAL"
+                }
+            ]
+        },
+        {
+            "name": "EEEAB 's Mobs",
+            "filename": "eeeabsmobs-1.20.1-0.98.1.jar",
+            "provider": "modrinth",
+            "projectId": "N8MNCv66",
+            "versionId": "XzW8W75E",
+            "required": true,
+            "hash": "6f3335b4c1f2442ae7233f4c6dc128ac3502b1997b859fce191fe887b4ff71371689b404e5a3e278eea47ab5ffe08d263c80d1e4c2e690cd30d6b1e6175187e1",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/N8MNCv66/versions/XzW8W75E/eeeabsmobs-1.20.1-0.98.1.jar",
+            "minecraftVersions": [
+                "1.20.1"
+            ],
+            "loaders": [
+                "forge"
+            ],
+            "releaseType": "beta",
+            "versionNumber": "1.20.1-0.98.1",
+            "dependencies": []
+        },
+        {
+            "name": "Elytra Slot",
+            "filename": "elytraslot-forge-6.4.4+1.20.1.jar",
+            "provider": "modrinth",
+            "projectId": "mSQF1NpT",
+            "versionId": "k6lA080t",
+            "required": true,
+            "hash": "0fc4adb7e3b7469eb925ebde8e9364524595187f9b15791ac6ff009d07d44d562b17c58d6e3b0a40fe3c40fdbd57b64343a8fe942d4b6c7022aa9cd34f7a8cef",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/mSQF1NpT/versions/k6lA080t/elytraslot-forge-6.4.4%2B1.20.1.jar",
+            "minecraftVersions": [
+                "1.20",
+                "1.20.1"
+            ],
+            "loaders": [
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "6.4.4+1.20.1",
+            "dependencies": [
+                {
+                    "id": "vvuO3ImH",
+                    "type": "REQUIRED"
+                },
+                {
+                    "id": "40FYwb4z",
+                    "type": "REQUIRED"
+                }
+            ]
+        },
+        {
+            "name": "Embeddium",
+            "filename": "embeddium-0.3.31+mc1.20.1.jar",
+            "provider": "modrinth",
+            "projectId": "sk9rgfiA",
+            "versionId": "UTbfe5d1",
+            "required": true,
+            "hash": "ffbf2da4685260a4d5c14c621708bd20722563f084f042d3dfb0a7b87f048e39299648c854a93939129da0d23a15a91ec628560d601e76074b08e275f6e132e9",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/sk9rgfiA/versions/UTbfe5d1/embeddium-0.3.31%2Bmc1.20.1.jar",
+            "minecraftVersions": [
+                "1.20.1"
+            ],
+            "loaders": [
+                "neoforge",
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "0.3.31+mc1.20.1",
+            "dependencies": [
+                {
+                    "id": "S1tndFDa",
+                    "type": "INCOMPATIBLE"
+                },
+                {
+                    "id": "4ZqxOvjD",
+                    "type": "INCOMPATIBLE"
+                }
+            ]
+        },
+        {
+            "name": "Emotecraft",
+            "filename": "emotecraft-for-MC1.20.1-2.2.7-b.build.50-forge.jar",
+            "provider": "modrinth",
+            "projectId": "pZ2wrerK",
+            "versionId": "2f5mEUPY",
+            "required": true,
+            "hash": "46ac9c5260232edd24f16d1724fe1acd0690f448927ba888add9d3a7a3a24fc6bec91ff171686ef7feb49f8ded40f9c7a53b25559ea8e9c60133dfdafde89e89",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/pZ2wrerK/versions/2f5mEUPY/emotecraft-for-MC1.20.1-2.2.7-b.build.50-forge.jar",
+            "minecraftVersions": [
+                "1.20",
+                "1.20.1"
+            ],
+            "loaders": [
+                "forge"
+            ],
+            "releaseType": "beta",
+            "versionNumber": "2.2.7-b.build.50+1.20.1-forge",
+            "dependencies": [
+                {
+                    "id": "gedNE4y2",
+                    "type": "REQUIRED"
+                },
+                {
+                    "id": "aRnIEV0F",
+                    "type": "OPTIONAL"
+                }
+            ]
+        },
+        {
+            "name": "Ender's Delight",
+            "filename": "endersdelight-forge-1.20.1-1.1.3.jar",
+            "provider": "modrinth",
+            "projectId": "2uEhdGKt",
+            "versionId": "DCBTCmop",
+            "required": true,
+            "hash": "0735b945a67c54b72d5e0654c39c162615f5d68e23439afee2d2a6783cb9277e45c00bce3584fd0d0ee85b606eb96c14b700760d09df796c16ad78766c80334c",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/2uEhdGKt/versions/DCBTCmop/endersdelight-forge-1.20.1-1.1.3.jar",
+            "minecraftVersions": [
+                "1.20.1"
+            ],
+            "loaders": [
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "1.1.3",
+            "dependencies": [
+                {
+                    "id": "R2OftAxM",
+                    "type": "REQUIRED"
+                }
+            ]
+        },
+        {
+            "name": "[EMF] Entity Model Features",
+            "filename": "entity_model_features-3.2.4-1.20.1-forge.jar",
+            "provider": "modrinth",
+            "projectId": "4I1XuqiY",
+            "versionId": "VSBDdOOY",
+            "required": true,
+            "hash": "77ca53e926822faa5069d3698618c5ee5cd01c6154e383820a989e15a0ad135ebf63c741137a39559f80b62a8a860487058ed168c25a4d840e84b248d4afa7a7",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/4I1XuqiY/versions/VSBDdOOY/entity_model_features-3.2.4-1.20.1-forge.jar",
+            "minecraftVersions": [
+                "1.20",
+                "1.20.1"
+            ],
+            "loaders": [
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "3.2.4-forge-1.20.1",
+            "dependencies": [
+                {
+                    "id": "BVzZfTc1",
+                    "type": "REQUIRED"
+                }
+            ]
+        },
+        {
+            "name": "EntityCulling",
+            "filename": "entityculling-forge-1.10.5-mc1.20.1.jar",
+            "provider": "modrinth",
+            "projectId": "NNAgCjsB",
+            "versionId": "MloBcsQQ",
+            "required": true,
+            "hash": "00f4d6987a7902597e6e3f178f77308d795b2e1c46a2bfdad79f718e8a7417373971b83004cbbe491582d91d1658718187383a368a813af0266ba99804746814",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/NNAgCjsB/versions/MloBcsQQ/entityculling-forge-1.10.5-mc1.20.1.jar",
+            "minecraftVersions": [
+                "1.20.1"
+            ],
+            "loaders": [
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "1.10.5",
+            "dependencies": []
+        },
+        {
+            "name": "[ETF] Entity Texture Features",
+            "filename": "entity_texture_features_1.20.1-forge-7.1.jar",
+            "provider": "modrinth",
+            "projectId": "BVzZfTc1",
+            "versionId": "GQlTHleX",
+            "required": true,
+            "hash": "0857b572a8695148f72eb9edc6218039ceeab8d11068fdfb567a5b1182232d7500ccccd75d6223b96ec5a5a1123910a6ebb1d9e8c8988d3cdb989797b9cc2228",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/BVzZfTc1/versions/GQlTHleX/entity_texture_features_1.20.1-forge-7.1.jar",
+            "minecraftVersions": [
+                "1.20",
+                "1.20.1"
+            ],
+            "loaders": [
+                "neoforge",
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "7.1-forge-1.20.1",
+            "dependencies": []
+        },
+        {
+            "name": "Create: Escalated",
+            "filename": "escalated-1.2.1+create.6.0.8-mc.1.20.1-forge.jar",
+            "provider": "modrinth",
+            "projectId": "LyOBYG8Q",
+            "versionId": "T9TPMmAy",
+            "required": true,
+            "hash": "8099b730a540bab5f936c774f4b097226127a4f22fca144c0a785fb33d22cc9d0d76b36afc1a2c7d265cad7d603613f75abf2a8d92a00749b284fd0f465b7500",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/LyOBYG8Q/versions/T9TPMmAy/escalated-1.2.1%2Bcreate.6.0.8-mc.1.20.1-forge.jar",
+            "minecraftVersions": [
+                "1.20.1"
+            ],
+            "loaders": [
+                "neoforge",
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "1.2.1",
+            "dependencies": [
+                {
+                    "id": "LNytGWDc",
+                    "type": "REQUIRED"
+                }
+            ]
+        },
+        {
+            "name": "Explorations",
+            "filename": "explorations-forge-1.20.1-1.6.1.jar",
+            "provider": "modrinth",
+            "projectId": "pcGnjJ39",
+            "versionId": "DrsYEYkr",
+            "required": true,
+            "hash": "a86f6b96330499d21e30210f3552a330f1223651dfb4545900fa5fb8650919e4fc03b58abf2d462a7bd62b195143db265948985ac0e13bbb245673a315329a74",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/pcGnjJ39/versions/DrsYEYkr/explorations-forge-1.20.1-1.6.1.jar",
+            "minecraftVersions": [
+                "1.20.1"
+            ],
+            "loaders": [
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "1.20.1-1.6.1-Forge",
+            "dependencies": []
+        },
+        {
+            "name": "Explorer's Compass",
+            "filename": "ExplorersCompass-1.20.1-1.4.0-forge.jar",
+            "provider": "modrinth",
+            "projectId": "RV1qfVQ8",
+            "versionId": "7ZdJbCOx",
+            "required": true,
+            "hash": "cc95056c371c4588d7e5f26509f58118f2335faa6985832cb9df0814877ac8b0aee7910dc5d30953b8b3571d7b6a99d76871a22f55f8f415266185ce6ec2285e",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/RV1qfVQ8/versions/7ZdJbCOx/ExplorersCompass-1.20.1-1.4.0-forge.jar",
+            "minecraftVersions": [
+                "1.20.1"
+            ],
+            "loaders": [
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "1.20.1-1.4.0-forge",
+            "dependencies": []
+        },
+        {
+            "name": "FallingTree",
+            "filename": "FallingTree-1.20.1-4.3.4.jar",
+            "provider": "modrinth",
+            "projectId": "Fb4jn8m6",
+            "versionId": "NrtzFkZE",
+            "required": true,
+            "hash": "487cd36886cb791a3f252c90818d5c1cedeec5080a7f874b0bfafff328c8fcc9b2acee03fe40f8397355e8a2a092d2f34cb40671c786c0d9d035728c971d4e9c",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/Fb4jn8m6/versions/NrtzFkZE/FallingTree-1.20.1-4.3.4.jar",
+            "minecraftVersions": [
+                "1.20.1"
+            ],
+            "loaders": [
+                "forge",
+                "fabric"
+            ],
+            "releaseType": "release",
+            "versionNumber": "1.20.1-4.3.4",
+            "dependencies": [
+                {
+                    "id": "P7dR8mSH",
+                    "type": "OPTIONAL"
+                },
+                {
+                    "id": "mOgUt4GM",
+                    "type": "OPTIONAL"
+                },
+                {
+                    "id": "9s6osm5g",
+                    "type": "OPTIONAL"
+                }
+            ]
+        },
+        {
+            "name": "Farmer's Delight",
+            "filename": "FarmersDelight-1.20.1-1.3.2.jar",
+            "provider": "modrinth",
+            "projectId": "R2OftAxM",
+            "versionId": "CsjS7EkP",
+            "required": true,
+            "hash": "3260a78e5d670792923be4d41a7f449aa3f7b4e258f390d4c388d0400e059e2e511d4aa49d9e51d39738a1dbf5507969495c651c7d59736d5b42c3f9691dc3e5",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/R2OftAxM/versions/CsjS7EkP/FarmersDelight-1.20.1-1.3.2.jar",
+            "minecraftVersions": [
+                "1.20.1"
+            ],
+            "loaders": [
+                "neoforge",
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "1.20.1-1.3.2",
+            "dependencies": []
+        },
+        {
+            "name": "Fast IP Ping",
+            "filename": "fast-ip-ping-v1.0.11-mc1.20.4-forge.jar",
+            "provider": "modrinth",
+            "projectId": "9mtu0sUO",
+            "versionId": "WVhGsL3a",
+            "required": true,
+            "hash": "394ea9a4f1afcf8eca0a1d57eb560dc54af0213b8062be95032f2a378a14bc9df790a2b82a08e08cd213ca86674d3febc7747a53d64db738eca53a0ef4e4d8ab",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/9mtu0sUO/versions/WVhGsL3a/fast-ip-ping-v1.0.11-mc1.20.4-forge.jar",
+            "minecraftVersions": [
+                "1.20",
+                "1.20.1",
+                "1.20.2",
+                "1.20.3",
+                "1.20.4"
+            ],
+            "loaders": [
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "v1.0.11-mc1.20.4-forge",
+            "dependencies": []
+        },
+        {
+            "name": "Ferrite Core",
+            "filename": "ferritecore-6.0.1-forge.jar",
+            "provider": "modrinth",
+            "projectId": "uXXizFIs",
+            "versionId": "DG5Fn9Sz",
+            "required": true,
+            "hash": "a1960a7c03dc32d4ccaccaf28afdd9b078758bbd62d15a91d4039a83fa9397a098e89b69591f6bd5190254d9ee97e502504154b9aec764adb8c65f000b75ba2c",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/uXXizFIs/versions/DG5Fn9Sz/ferritecore-6.0.1-forge.jar",
+            "minecraftVersions": [
+                "1.20",
+                "1.20.1"
+            ],
+            "loaders": [
+                "neoforge",
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "6.0.1",
+            "dependencies": []
+        },
+        {
+            "name": "Framework",
+            "filename": "framework-forge-1.20.1-0.8.0.jar",
+            "provider": "curseforge",
+            "projectId": 549225,
+            "versionId": 7573740,
+            "required": true,
+            "hash": "27347879f8760a7bc0b4bd71977abc50e498811c",
+            "hashFormat": "sha1",
+            "downloadMode": "metadata:curseforge",
+            "url": "",
+            "minecraftVersions": [
+                "1.20.1"
+            ],
+            "loaders": [
+                "forge"
+            ],
+            "releaseType": "beta",
+            "versionNumber": "Framework 0.8.0",
+            "dependencies": [
+                {
+                    "id": "457570",
+                    "type": "OPTIONAL"
+                },
+                {
+                    "id": "459701",
+                    "type": "OPTIONAL"
+                }
+            ]
+        },
+        {
+            "name": "Freecam",
+            "filename": "freecam-forge-1.2.1+1.20.jar",
+            "provider": "modrinth",
+            "projectId": "XeEZ3fK2",
+            "versionId": "bvoDmWip",
+            "required": true,
+            "hash": "14d5194c02d6281094efdc857e608b412cdb84ffbf94a06401c8509daa74914273e18224f05d9fe9bcea23fa70d5350c6edaf8bf657e58787f08a4553169c0d2",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/XeEZ3fK2/versions/bvoDmWip/freecam-forge-1.2.1%2B1.20.jar",
+            "minecraftVersions": [
+                "1.20",
+                "1.20.1"
+            ],
+            "loaders": [
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "1.2.1+mc1.20.1",
+            "dependencies": []
+        },
+        {
+            "name": "Fusion (Connected Textures)",
+            "filename": "fusion-1.3.9-forge-mc1.20.1.jar",
+            "provider": "modrinth",
+            "projectId": "p19vrgc2",
+            "versionId": "5ho0wQOa",
+            "required": true,
+            "hash": "e5eb6b1dc63308b5d165e15f616fa49ea7a055da25dadb1ee3309033fed35fd2815454d45fe185f6ebcffd79966ac73ea1734b1aba81b0a7030ca9056f811327",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/p19vrgc2/versions/5ho0wQOa/fusion-1.3.9-forge-mc1.20.1.jar",
+            "minecraftVersions": [
+                "1.20",
+                "1.20.1"
+            ],
+            "loaders": [
+                "neoforge",
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "1.3.9-forge-mc1.20.1",
+            "dependencies": []
+        },
+        {
+            "name": "Geckolib",
+            "filename": "geckolib-forge-1.20.1-4.8.4.jar",
+            "provider": "modrinth",
+            "projectId": "8BmcQJ2H",
+            "versionId": "aC5KMoNg",
+            "required": true,
+            "hash": "443a321a293e3cb92fbbc3c97a38b179a45d1db703cd7bdb123270a9e04e7b7d67d5b06cd8e77a6d4d9139e033e901b9660cccf53ad5f9beaae6d06eae68febf",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/8BmcQJ2H/versions/aC5KMoNg/geckolib-forge-1.20.1-4.8.4.jar",
+            "minecraftVersions": [
+                "1.20.1"
+            ],
+            "loaders": [
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "4.8.4",
+            "dependencies": []
+        },
+        {
+            "name": "GlitchCore",
+            "filename": "GlitchCore-forge-1.20.1-0.0.1.1.jar",
+            "provider": "modrinth",
+            "projectId": "s3dmwKy5",
+            "versionId": "pYPZ5MNI",
+            "required": true,
+            "hash": "f4d9ec11b9604f59552cbecf4099600e7adef993cff37af0badac29505bd47aa9615acd140ee808b51754b048c2d61e2f942f656ff391df1e080cbffdfec5112",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/s3dmwKy5/versions/pYPZ5MNI/GlitchCore-forge-1.20.1-0.0.1.1.jar",
+            "minecraftVersions": [
+                "1.20.1"
+            ],
+            "loaders": [
+                "forge"
+            ],
+            "releaseType": "beta",
+            "versionNumber": "0.0.1.1",
+            "dependencies": []
+        },
+        {
+            "name": "GPUBooster",
+            "filename": "GPUTape-1.18x-1.21x-1.0.5.1.jar",
+            "provider": "modrinth",
+            "projectId": "5CTSrY8X",
+            "versionId": "mMc55fB1",
+            "required": true,
+            "hash": "4bcfccf92a9b2e5842864b23caef9805da8a849928a711029ba9df0364cf50f66cf0f58bacca5316a0b7b1d10cb62569aca7e6d9f894c3a42100dc6d9a80cca7",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/5CTSrY8X/versions/mMc55fB1/GPUTape-1.18x-1.21x-1.0.5.1.jar",
+            "minecraftVersions": [
+                "1.18",
+                "1.18.1",
+                "1.18.2",
+                "1.19",
+                "1.19.1",
+                "1.19.2",
+                "1.19.3",
+                "1.19.4",
+                "1.20",
+                "1.20.1",
+                "1.20.2",
+                "1.20.3",
+                "1.20.4",
+                "1.20.5",
+                "1.20.6",
+                "1.21",
+                "1.21.1",
+                "1.21.2",
+                "1.21.3",
+                "1.21.4",
+                "1.21.5"
+            ],
+            "loaders": [
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "1.0.5.1-forge",
+            "dependencies": []
+        },
+        {
+            "name": "GuideME",
+            "filename": "guideme-20.1.15.jar",
+            "provider": "modrinth",
+            "projectId": "Ck4E7v7R",
+            "versionId": "i7Tp1AHw",
+            "required": true,
+            "hash": "c08f2ab76b4442a5fcdd19c7ddc6e2a4c74469fd96844d2f868f2fb18517aced97bf40032c3036f7ca4b094de1ded9e3dab57924a49f3a3d499b61a0ecc2a9cc",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/Ck4E7v7R/versions/i7Tp1AHw/guideme-20.1.15.jar",
+            "minecraftVersions": [
+                "1.20.1"
+            ],
+            "loaders": [
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "20.1.15",
+            "dependencies": []
+        },
+        {
+            "name": "Ice and Fire",
+            "filename": "iceandfire-2.1.13-1.20.1-beta-5.jar",
+            "provider": "modrinth",
+            "projectId": "LVnvHVBp",
+            "versionId": "EzN8KQYF",
+            "required": true,
+            "hash": "9e3559efccfb898a1f96c16910c07d26bafa730603a335db04df5a1ef511bd2e60b6bbb788c12aa80b12c8ffd8228e7eddf840f90f356577bfd0e439e24eb4f1",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/LVnvHVBp/versions/EzN8KQYF/iceandfire-2.1.13-1.20.1-beta-5.jar",
+            "minecraftVersions": [
+                "1.20.1"
+            ],
+            "loaders": [
+                "neoforge",
+                "forge"
+            ],
+            "releaseType": "beta",
+            "versionNumber": "2.1.13-1.20.1-beta-5",
+            "dependencies": [
+                {
+                    "id": "jJfV67b1",
+                    "type": "REQUIRED"
+                }
+            ]
+        },
+        {
+            "name": "Iceberg",
+            "filename": "Iceberg-1.20.1-forge-1.1.25.jar",
+            "provider": "modrinth",
+            "projectId": "5faXoLqX",
+            "versionId": "BQ8rJPXV",
+            "required": true,
+            "hash": "8612097a014fcd6343a092cfeddb0e9d57c5a665b9ac61603a7760d156abd048ac548db55e750b369700b0475661e554f4b92b44677edf07574d4f9ffa42558c",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/5faXoLqX/versions/BQ8rJPXV/Iceberg-1.20.1-forge-1.1.25.jar",
+            "minecraftVersions": [
+                "1.20.1"
+            ],
+            "loaders": [
+                "neoforge",
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "1.1.25",
+            "dependencies": []
+        },
+        {
+            "name": "ImmediatelyFast",
+            "filename": "ImmediatelyFast-Forge-1.5.5+1.20.4.jar",
+            "provider": "modrinth",
+            "projectId": "5ZwdcRci",
+            "versionId": "rvsLEEZU",
+            "required": true,
+            "hash": "8fab0605880f6b3875dc6d9d7bc8d69612a3e61a0bfc5adeac3240248715042f04885a09bc4d29383ab809cfc536dff84c6150af56ebd8f08128a1c42909c323",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/5ZwdcRci/versions/rvsLEEZU/ImmediatelyFast-Forge-1.5.5%2B1.20.4.jar",
+            "minecraftVersions": [
+                "1.20",
+                "1.20.1",
+                "1.20.2",
+                "1.20.3",
+                "1.20.4"
+            ],
+            "loaders": [
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "1.5.5+1.20.4-forge",
+            "dependencies": []
+        },
+        {
+            "name": "Immersive Aircraft",
+            "filename": "immersive_aircraft-1.4.1+1.20.1-forge.jar",
+            "provider": "modrinth",
+            "projectId": "x3HZvrj6",
+            "versionId": "QQI7iHKf",
+            "required": true,
+            "hash": "561feeababe1a75984eed66c5b62ac4bc5d1eaf6db35b8dda7295eb5d88b452b0c0170b35d7c3da4409c8253f4794ee8ffbda0b0ec59432b3d0b1736832a7867",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/x3HZvrj6/versions/QQI7iHKf/immersive_aircraft-1.4.1%2B1.20.1-forge.jar",
+            "minecraftVersions": [
+                "1.20.1"
+            ],
+            "loaders": [
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "1.4.1+1.20.1",
+            "dependencies": [
+                {
+                    "id": "Duramjh8",
+                    "type": "OPTIONAL"
+                }
+            ]
+        },
+        {
+            "name": "Immersive Portals",
+            "filename": "immersive-portals-3.0.7-all.jar",
+            "provider": "modrinth",
+            "projectId": "zf4Szzx2",
+            "versionId": "Q6Z7eOLL",
+            "required": true,
+            "hash": "5dbbc097b5ee9a4fba5ed45e2ec5f4d5db18496e155d721840cfe286584df8191cefd56894156e9d327d40309a219665bf2fc812a60f2b83aa4a95fc40194003",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/zf4Szzx2/versions/Q6Z7eOLL/immersive-portals-3.0.7-all.jar",
+            "minecraftVersions": [
+                "1.20.1"
+            ],
+            "loaders": [
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "3.0.7",
+            "dependencies": [
+                {
+                    "id": "9s6osm5g",
+                    "type": "REQUIRED"
+                }
+            ]
+        },
+        {
+            "name": "Create: Interiors",
+            "filename": "interiors-1.20.1-forge-0.6.0.jar",
+            "provider": "modrinth",
+            "projectId": "r4Knci2k",
+            "versionId": "3Gpm5qDT",
+            "required": true,
+            "hash": "02f3f01d627f315a5185848ab20bee3d5269705e6fe9a1f6bb57ae47954231a04c8360c0ebf57c3e0fad2bac8cff0e97417f63982caf4545c624805a02984b5e",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/r4Knci2k/versions/3Gpm5qDT/interiors-1.20.1-forge-0.6.0.jar",
+            "minecraftVersions": [
+                "1.20.1"
+            ],
+            "loaders": [
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "1.20.1-forge-0.6.0",
+            "dependencies": [
+                {
+                    "id": "LNytGWDc",
+                    "type": "REQUIRED"
+                }
+            ]
+        },
+        {
+            "name": "Item Highlighter",
+            "filename": "Highlighter-1.20.1-forge-1.1.9.jar",
+            "provider": "modrinth",
+            "projectId": "cVNW5lr6",
+            "versionId": "rcQOLnyI",
+            "required": true,
+            "hash": "a8b9e114281c1390ecded38a6114516dc0b3ae0e4cb0f041162d54b6cabfacf077c7394075c43c1565a01362cdbf37e45c3bdeac2aa5b8dede93970bafd44c65",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/cVNW5lr6/versions/rcQOLnyI/Highlighter-1.20.1-forge-1.1.9.jar",
+            "minecraftVersions": [
+                "1.20",
+                "1.20.1"
+            ],
+            "loaders": [
+                "neoforge",
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "1.1.9",
+            "dependencies": [
+                {
+                    "id": "5faXoLqX",
+                    "type": "REQUIRED"
+                }
+            ]
+        },
+        {
+            "name": "Jade \ud83d\udd0d",
+            "filename": "Jade-1.20.1-Forge-11.13.3.jar",
+            "provider": "modrinth",
+            "projectId": "nvQzSEkH",
+            "versionId": "xJQHCmWJ",
+            "required": true,
+            "hash": "72025c4ad6d26522bafe3d5d6ac9d4702c006a868312cb34df8a7a2398a4618205839607b129c167fd176e58cb7655f08e3afbf1993925c80d4fcc559c45a037",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/nvQzSEkH/versions/xJQHCmWJ/Jade-1.20.1-Forge-11.13.3.jar",
+            "minecraftVersions": [
+                "1.20",
+                "1.20.1"
+            ],
+            "loaders": [
+                "neoforge",
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "11.13.3+forge",
+            "dependencies": [
+                {
+                    "id": "u6dRKJwZ",
+                    "type": "OPTIONAL"
+                }
+            ]
+        },
+        {
+            "name": "JamLib",
+            "filename": "jamlib-forge-1.3.6+1.20.1-patch.1.jar",
+            "provider": "modrinth",
+            "projectId": "IYY9Siz8",
+            "versionId": "PDIowNff",
+            "required": true,
+            "hash": "0ff2c1871cf5bf66ae92c0a02fd8c800e22361f1c150db3d07905cfa5f884e1114579e9f9cd8cfd793bc71e6b49983d23af3862ffa9a5a2099939f9552a0896b",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/IYY9Siz8/versions/PDIowNff/jamlib-forge-1.3.6%2B1.20.1-patch.1.jar",
+            "minecraftVersions": [
+                "1.20.1"
+            ],
+            "loaders": [
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "1.3.6+1.20.1-patch.1",
+            "dependencies": [
+                {
+                    "id": "lhGA9TYQ",
+                    "type": "REQUIRED"
+                }
+            ]
+        },
+        {
+            "name": "JEI / REI / EMI WorldGen",
+            "filename": "jeiworldgen-forge-1.20.1-1.4.0.jar",
+            "provider": "modrinth",
+            "projectId": "YYrsrQ6q",
+            "versionId": "s38zpgYS",
+            "required": true,
+            "hash": "8ee998f996e0375a73d7ea3f351081c5c4ccac9611c90ce972ed0283d04547d262a19f5ed8c8d2f4e11104978b2776800748a0ca63c84c6a5b9b914cdbadf0a4",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/YYrsrQ6q/versions/s38zpgYS/jeiworldgen-forge-1.20.1-1.4.0.jar",
+            "minecraftVersions": [
+                "1.20.1"
+            ],
+            "loaders": [
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "1.4.0+forge-1.20.1",
+            "dependencies": [
+                {
+                    "id": "u6dRKJwZ",
+                    "type": "OPTIONAL"
+                },
+                {
+                    "id": "fRiHVvU7",
+                    "type": "OPTIONAL"
+                },
+                {
+                    "id": "nfn13YXA",
+                    "type": "OPTIONAL"
+                }
+            ]
+        },
+        {
+            "name": "Just Enough Items (JEI)",
+            "filename": "jei-1.20.1-forge-15.21.0.148.jar",
+            "provider": "modrinth",
+            "projectId": "u6dRKJwZ",
+            "versionId": "QbzBDrjN",
+            "required": true,
+            "hash": "2353ebf56afdd512885035a6a688f31934eb08a3c1e9e122237bbc03aaa25863e04d80c8816cbb7115004b551b319e7d5506d0b40617e53aecd31b9eecd93892",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/u6dRKJwZ/versions/QbzBDrjN/jei-1.20.1-forge-15.21.0.148.jar",
+            "minecraftVersions": [
+                "1.20.1"
+            ],
+            "loaders": [
+                "forge"
+            ],
+            "releaseType": "beta",
+            "versionNumber": "15.21.0.148",
+            "dependencies": []
+        },
+        {
+            "name": "JEIOptimizer",
+            "filename": "jeioptimizer-1.20.1-1.1.0-15.21.jar",
+            "provider": "modrinth",
+            "projectId": "GRvMb5oF",
+            "versionId": "SOqPZeMP",
+            "required": true,
+            "hash": "bfa16534b49717ab2738c03a978031fc9d81df728df79d4be428cddd2a4e16f09a739f5e703e71cbade6c05b71e98e730e1e5f9eda35a29ee180002db1de03a7",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/GRvMb5oF/versions/SOqPZeMP/jeioptimizer-1.20.1-1.1.0-15.21.jar",
+            "minecraftVersions": [
+                "1.20.1"
+            ],
+            "loaders": [
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "1.1.0-15.21",
+            "dependencies": []
+        },
+        {
+            "name": "Jump Over Fences",
+            "filename": "jumpoverfences-forge-1.20.1-1.3.1.jar",
+            "provider": "modrinth",
+            "projectId": "4HeIHvIP",
+            "versionId": "JO0gOoeH",
+            "required": true,
+            "hash": "1a8f1f30c60721035b093725d97ae1c82cf79773de42b82cbd7857ad5c00bded010df66e4165c662db059f75e97ac6272ede4ca721cc13e9813506640f0d2f25",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/4HeIHvIP/versions/JO0gOoeH/jumpoverfences-forge-1.20.1-1.3.1.jar",
+            "minecraftVersions": [
+                "1.20.1"
+            ],
+            "loaders": [
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "1.3.1",
+            "dependencies": []
+        },
+        {
+            "name": "Just Enough Effect Descriptions (JEED)",
+            "filename": "jeed-1.20-2.2.5.jar",
+            "provider": "modrinth",
+            "projectId": "EO27GKs1",
+            "versionId": "jHYonbva",
+            "required": true,
+            "hash": "3beac4c40fe032518304689bd5c1e266b4bde753cc5095375def9c4af54d67fa119e683426a9e7e97ebdcc213cca204110cdc553d904e34b65e0d8572b19f2fa",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/EO27GKs1/versions/jHYonbva/jeed-1.20-2.2.5.jar",
+            "minecraftVersions": [
+                "1.20.1"
+            ],
+            "loaders": [
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "1.20-2.2.5",
+            "dependencies": [
+                {
+                    "id": "onDuQF5e",
+                    "type": "OPTIONAL"
+                },
+                {
+                    "id": "fRiHVvU7",
+                    "type": "OPTIONAL"
+                },
+                {
+                    "id": "nfn13YXA",
+                    "type": "OPTIONAL"
+                },
+                {
+                    "id": "u6dRKJwZ",
+                    "type": "OPTIONAL"
+                }
+            ]
+        },
+        {
+            "name": "Just Enough Professions (JEP)",
+            "filename": "JustEnoughProfessions-forge-1.20.1-3.0.1.jar",
+            "provider": "modrinth",
+            "projectId": "kB56GtWA",
+            "versionId": "ANKVJC3T",
+            "required": true,
+            "hash": "b1637b0cd3cf8062cada8a13e7d49ed15b7a2ff6c1502c8ba044c2c7cad3c07f1312d50f997405da658695b0e7ddcb916074b5c2da23db36b5391ae88a94d80e",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/kB56GtWA/versions/ANKVJC3T/JustEnoughProfessions-forge-1.20.1-3.0.1.jar",
+            "minecraftVersions": [
+                "1.20.1"
+            ],
+            "loaders": [
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "3.0.1",
+            "dependencies": [
+                {
+                    "id": "u6dRKJwZ",
+                    "type": "REQUIRED"
+                }
+            ]
+        },
+        {
+            "name": "Just Enough Resources (JER)",
+            "filename": "JustEnoughResources-1.20.1-1.4.0.247.jar",
+            "provider": "modrinth",
+            "projectId": "uEfK2CXF",
+            "versionId": "jW52tbTk",
+            "required": true,
+            "hash": "84568db84d4486e70ddd06c280b6ec69657d53e99cdd1d974db40bf53397ce2fd371e8dd0567fd06f757f2bb6e802a5c54de73f70033f9236dad04b316d33462",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/uEfK2CXF/versions/jW52tbTk/JustEnoughResources-1.20.1-1.4.0.247.jar",
+            "minecraftVersions": [
+                "1.20.1"
+            ],
+            "loaders": [
+                "forge"
+            ],
+            "releaseType": "beta",
+            "versionNumber": "1.4.0.247",
+            "dependencies": [
+                {
+                    "id": "u6dRKJwZ",
+                    "type": "REQUIRED"
+                }
+            ]
+        },
+        {
+            "name": "Kotlin for Forge",
+            "filename": "kotlinforforge-4.12.0-all.jar",
+            "provider": "modrinth",
+            "projectId": "ordsPcFz",
+            "versionId": "Zsh14XeQ",
+            "required": true,
+            "hash": "767f40030ed4b370a3838fa65ae1b79974f31979342fff7cc834a0d5f39eb28612642519352ff2a1dd5226ce1f745f8b3156ee3625ffde01219137d064c1ee40",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/ordsPcFz/versions/Zsh14XeQ/kotlinforforge-4.12.0-all.jar",
+            "minecraftVersions": [
+                "1.19.3",
+                "1.19.4",
+                "1.20",
+                "1.20.1",
+                "1.20.2",
+                "1.20.3",
+                "1.20.4"
+            ],
+            "loaders": [
+                "neoforge",
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "4.12.0",
+            "dependencies": []
+        },
+        {
+            "name": "L_Ender's Cataclysm",
+            "filename": "L_Enders_Cataclysm-3.31.jar",
+            "provider": "modrinth",
+            "projectId": "46KJle7n",
+            "versionId": "C3H0azzB",
+            "required": true,
+            "hash": "0dccedd79e3e555f5a38075612d91aec23e1f6ca674e7637ea88c669095b44554385abb75826dfa5a0170585c6b3c3b6d9465bed049c0186d80f75d88f45c5e8",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/46KJle7n/versions/C3H0azzB/L_Enders_Cataclysm-3.31.jar",
+            "minecraftVersions": [
+                "1.20.1"
+            ],
+            "loaders": [
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "3.31",
+            "dependencies": [
+                {
+                    "id": "FoVacERa",
+                    "type": "REQUIRED"
+                },
+                {
+                    "id": "vvuO3ImH",
+                    "type": "REQUIRED"
+                }
+            ]
+        },
+        {
+            "name": "Legendary Monsters",
+            "filename": "legendarymonsters-2.1.22 MC 1.20.1.jar",
+            "provider": "modrinth",
+            "projectId": "9d9Bkqva",
+            "versionId": "ypyLABVP",
+            "required": true,
+            "hash": "3ecd8459407a880290216b0dc79dee22834c2ce3dbb0c5a860ad12502eecaf4a4da79adc5ae348e0ed68e381733a7687f73c5293196f1c306c3193876f840e7c",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/9d9Bkqva/versions/ypyLABVP/legendarymonsters-2.1.22 MC 1.20.1.jar",
+            "minecraftVersions": [
+                "1.20.1"
+            ],
+            "loaders": [
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "1.20.1",
+            "dependencies": []
+        },
+        {
+            "name": "Lionfish-API",
+            "filename": "lionfishapi-3.0.jar",
+            "provider": "modrinth",
+            "projectId": "FoVacERa",
+            "versionId": "CPftDBcY",
+            "required": true,
+            "hash": "a7cf6c9bf27a77b45efe434a166f9c99efdb6db14e5d88ce8417c6364aea9d250a9f43627e9e0ac162e106517fccf51cebb5035852c8449fb7fb299a083770c4",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/FoVacERa/versions/CPftDBcY/lionfishapi-3.0.jar",
+            "minecraftVersions": [
+                "1.20.1"
+            ],
+            "loaders": [
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "3.0",
+            "dependencies": []
+        },
+        {
+            "name": "LittleTiles",
+            "filename": "LittleTiles_BETA_v1.6.0-pre161_mc1.20.1.jar",
+            "provider": "modrinth",
+            "projectId": "RCRxC1tD",
+            "versionId": "sBbUjEhq",
+            "required": true,
+            "hash": "e9bf001062959a729165c12a6858a6be8349c503840e06240a065dbabaf0d005ce9275589dc2c8cbe44474be0a2f94353f44cc67376ae00d79284aa4ff8e991f",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/RCRxC1tD/versions/sBbUjEhq/LittleTiles_BETA_v1.6.0-pre161_mc1.20.1.jar",
+            "minecraftVersions": [
+                "1.20.1"
+            ],
+            "loaders": [
+                "neoforge",
+                "forge"
+            ],
+            "releaseType": "beta",
+            "versionNumber": "1.6.0-pre161",
+            "dependencies": [
+                {
+                    "id": "OsZiaDHq",
+                    "type": "REQUIRED"
+                }
+            ]
+        },
+        {
+            "name": "Lootr",
+            "filename": "lootr-forge-1.20-0.7.35.94.jar",
+            "provider": "modrinth",
+            "projectId": "EltpO5cN",
+            "versionId": "mWTXC1ZX",
+            "required": true,
+            "hash": "a04c6371376bfdac2b10cbb2bb9af7ded10ac26faaeb252b59aab2f02c2b2064c2c4ab665fb6ea218243e89d6f237d878c6951638bb948edead2c0a604dd023a",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/EltpO5cN/versions/mWTXC1ZX/lootr-forge-1.20-0.7.35.94.jar",
+            "minecraftVersions": [
+                "1.20",
+                "1.20.1"
+            ],
+            "loaders": [
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "0.7.35.94",
+            "dependencies": []
+        },
+        {
+            "name": "Man of Many Planes",
+            "filename": "man_of_many_planes-0.2.0+1.20.1-forge.jar",
+            "provider": "modrinth",
+            "projectId": "9qdTHi0q",
+            "versionId": "uZNB5Zrk",
+            "required": true,
+            "hash": "82d78136ea735447b2a8ed929e26776b508b973b1c9200dffb3cc7de76b9e138b6563180fa906c46d9fa726aa1012e139f03e7fd008815b20b1066ae484d149c",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/9qdTHi0q/versions/uZNB5Zrk/man_of_many_planes-0.2.0%2B1.20.1-forge.jar",
+            "minecraftVersions": [
+                "1.20.1"
+            ],
+            "loaders": [
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "0.2.0+1.20.1",
+            "dependencies": []
+        },
+        {
+            "name": "Miner's Delight",
+            "filename": "miners_delight-1.20.1-1.4.5-backport.jar",
+            "provider": "modrinth",
+            "projectId": "qMxbM4BQ",
+            "versionId": "p0INUam7",
+            "required": true,
+            "hash": "82e64570bf122c86537635d1fb9efa3a65a5da5acd41d2217ebcae95e337d0675ba94f0eda38a0edaf6e41a3be45838e04759ff96cac64c880db85a8bac4b015",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/qMxbM4BQ/versions/p0INUam7/miners_delight-1.20.1-1.4.5-backport.jar",
+            "minecraftVersions": [
+                "1.20.1"
+            ],
+            "loaders": [
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "1.20.1-1.4.5-backport",
+            "dependencies": [
+                {
+                    "id": "R2OftAxM",
+                    "type": "REQUIRED"
+                }
+            ]
+        },
+        {
+            "name": "MmmMmmMmmMmm",
+            "filename": "dummmmmmy-1.20-2.0.12-forge.jar",
+            "provider": "modrinth",
+            "projectId": "Adega8YN",
+            "versionId": "c1HMqDvI",
+            "required": true,
+            "hash": "3ad3237a847cdbfc93df1eb0eaa75552e9a1aca871e04106948317ee930b04e6e1d84fb776f3d21bd17ceb5bf033833562bf7294c7579a4e6f5abbf86f1aa32f",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/Adega8YN/versions/c1HMqDvI/dummmmmmy-1.20-2.0.12-forge.jar",
+            "minecraftVersions": [
+                "1.20.1"
+            ],
+            "loaders": [
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "1.20-2.0.12-forge",
+            "dependencies": [
+                {
+                    "id": "twkfQtEc",
+                    "type": "REQUIRED"
+                }
+            ]
+        },
+        {
+            "name": "ModernFix",
+            "filename": "modernfix-forge-5.27.66+mc1.20.1.jar",
+            "provider": "modrinth",
+            "projectId": "nmDcB62a",
+            "versionId": "ZxDvSMHV",
+            "required": true,
+            "hash": "546eab2906684c463e55e27ff99467ab6ca7a6350803e5ad2c16e25d0eb1187a9ea619ab8a8887af652eeb21e2b1780b6f4957d5151a2b8be92d539feb244ea5",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/nmDcB62a/versions/ZxDvSMHV/modernfix-forge-5.27.66%2Bmc1.20.1.jar",
+            "minecraftVersions": [
+                "1.20.1"
+            ],
+            "loaders": [
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "5.27.66+mc1.20.1",
+            "dependencies": []
+        },
+        {
+            "name": "More Delight (for Farmer's Delight)",
+            "filename": "moredelight-26.05.20-1.20-forge.jar",
+            "provider": "modrinth",
+            "projectId": "znHQQtuU",
+            "versionId": "GrLDJ8lO",
+            "required": true,
+            "hash": "69632de72d44a683541fd2bfb73a38fa2fd76c1a7ced264a9f6b00dfd75382bd3141c8932cd9bc9eb6740a204936a33d725a9580a80cdceb23b37e66b1045dec",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/znHQQtuU/versions/GrLDJ8lO/moredelight-26.05.20-1.20-forge.jar",
+            "minecraftVersions": [
+                "1.20",
+                "1.20.1"
+            ],
+            "loaders": [
+                "neoforge",
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "26.05.20-1.20-forge",
+            "dependencies": [
+                {
+                    "id": "rmDY6fYt",
+                    "type": "REQUIRED"
+                },
+                {
+                    "id": "R2OftAxM",
+                    "type": "REQUIRED"
+                }
+            ]
+        },
+        {
+            "name": "More Mob Variants",
+            "filename": "moremobvariants-forge+1.20.1-1.3.0.1.jar",
+            "provider": "modrinth",
+            "projectId": "JiEhJ3WG",
+            "versionId": "qtpseir7",
+            "required": true,
+            "hash": "89533a181f491452c306f29ffbae175fe5aae4912ec58199c93d2e5479b3b7db6525fc1261380b9ff2ce0b114520180e66ef52dd192d3d7258aff43af5eac86e",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/JiEhJ3WG/versions/qtpseir7/moremobvariants-forge%2B1.20.1-1.3.0.1.jar",
+            "minecraftVersions": [
+                "1.20.1"
+            ],
+            "loaders": [
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "1.3.0.1",
+            "dependencies": []
+        },
+        {
+            "name": "Mouse Tweaks",
+            "filename": "MouseTweaks-forge-mc1.20.1-2.25.1.jar",
+            "provider": "modrinth",
+            "projectId": "aC3cM3Vq",
+            "versionId": "7JVXOe3K",
+            "required": true,
+            "hash": "a3bb0272c0a1a3be9250dfee030bb8f86217fa6a32bd534be8c940fdd8c466c800c2df85874877983ced36ecfc28c8ced6c0d42107c1ab621385b4be9a7c65eb",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/aC3cM3Vq/versions/7JVXOe3K/MouseTweaks-forge-mc1.20.1-2.25.1.jar",
+            "minecraftVersions": [
+                "1.20.1"
+            ],
+            "loaders": [
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "1.20.1-2.25.1-forge",
+            "dependencies": []
+        },
+        {
+            "name": "Mowzie's Mobs",
+            "filename": "mowziesmobs-1.8.2.jar",
+            "provider": "modrinth",
+            "projectId": "BFbX9xcm",
+            "versionId": "acYEfsJa",
+            "required": true,
+            "hash": "c1c5f7b8cba4dbbe57f8eb7150bea94a72076ef4ae923adf7fe1147eef703e4fedc7914a12d51fb4152faccaad94c4053ce3ff21cca8905bf2da17de61db43b0",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/BFbX9xcm/versions/acYEfsJa/mowziesmobs-1.8.2.jar",
+            "minecraftVersions": [
+                "1.20.1"
+            ],
+            "loaders": [
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "1.8.2",
+            "dependencies": [
+                {
+                    "id": "8BmcQJ2H",
+                    "type": "REQUIRED"
+                }
+            ]
+        },
+        {
+            "name": "MrCrayfish's Gun Mod [Unofficial]",
+            "filename": "CGM-Unofficial-1.4.20+Forge+1.20.1.jar",
+            "provider": "curseforge",
+            "projectId": 945471,
+            "versionId": 8399743,
+            "required": true,
+            "hash": "275e48d6ff5be47d29efc4bc03bec783e67a0f45",
+            "hashFormat": "sha1",
+            "downloadMode": "metadata:curseforge",
+            "url": "",
+            "minecraftVersions": [
+                "1.20.1"
+            ],
+            "loaders": [
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "CGM-Unofficial-1.4.20+Forge+1.20.1.jar",
+            "dependencies": [
+                {
+                    "id": "549225",
+                    "type": "REQUIRED"
+                }
+            ]
+        },
+        {
+            "name": "My Nether's Delight",
+            "filename": "MyNethersDelight-1.20.1-1.10.4.jar",
+            "provider": "modrinth",
+            "projectId": "O53VhQoZ",
+            "versionId": "DKcTbOE3",
+            "required": true,
+            "hash": "560ef8449525fd4ed6500f19cc99cca8e281578a2b01fd4dc715cbd37c4b669e569ffe1935c5e13315f8c2330bfb84dd61b8b72dc1b836e1e6cc67d3f0b230e8",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/O53VhQoZ/versions/DKcTbOE3/MyNethersDelight-1.20.1-1.10.4.jar",
+            "minecraftVersions": [
+                "1.20.1"
+            ],
+            "loaders": [
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "1.20.1-1.10.4",
+            "dependencies": [
+                {
+                    "id": "u6dRKJwZ",
+                    "type": "OPTIONAL"
+                },
+                {
+                    "id": "R2OftAxM",
+                    "type": "REQUIRED"
+                }
+            ]
+        },
+        {
+            "name": "Naturalist",
+            "filename": "naturalist-5.0pre3+forge-1.20.1.jar",
+            "provider": "modrinth",
+            "projectId": "F8BQNPWX",
+            "versionId": "Cx95h37p",
+            "required": true,
+            "hash": "6a03e808a1cf88ef4208af58e39858ae501b0746b99c9d39273c414f9fe7db6751444c32b749beedc184deff4bfae10ed23e6143b83b03113c56320844a577db",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/F8BQNPWX/versions/Cx95h37p/naturalist-5.0pre3%2Bforge-1.20.1.jar",
+            "minecraftVersions": [
+                "1.20.1"
+            ],
+            "loaders": [
+                "forge"
+            ],
+            "releaseType": "beta",
+            "versionNumber": "5.0pre3-forge",
+            "dependencies": [
+                {
+                    "id": "8BmcQJ2H",
+                    "type": "REQUIRED"
+                }
+            ]
+        },
+        {
+            "name": "Nature's Compass",
+            "filename": "NaturesCompass-1.20.1-1.12.0-forge.jar",
+            "provider": "modrinth",
+            "projectId": "fPetb5Kh",
+            "versionId": "eRSDvCjN",
+            "required": true,
+            "hash": "885671553f322c3125557343a66260b0723e6ad474d6786b1f252712162fee6175666f6ec640969dd9e0e09a26e95a69c3ab3626d78341644d3c0c86a244939c",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/fPetb5Kh/versions/eRSDvCjN/NaturesCompass-1.20.1-1.12.0-forge.jar",
+            "minecraftVersions": [
+                "1.20.1"
+            ],
+            "loaders": [
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "1.20.1-1.12.0-forge",
+            "dependencies": []
+        },
+        {
+            "name": "No Chat Reports",
+            "filename": "NoChatReports-FORGE-1.20.1-v2.2.2.jar",
+            "provider": "modrinth",
+            "projectId": "qQyHxfxd",
+            "versionId": "ksEG6N5E",
+            "required": true,
+            "hash": "39aa2e120a10ee68e9b03e3d5bd6f2d5def2fa7fcd914f55f018a85381eb0bb52055abce53a64cb0b0fba10f24da12caef085733e715907598ce468bcf59df51",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/qQyHxfxd/versions/ksEG6N5E/NoChatReports-FORGE-1.20.1-v2.2.2.jar",
+            "minecraftVersions": [
+                "1.20",
+                "1.20.1"
+            ],
+            "loaders": [
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "Forge-1.20.1-v2.2.2",
+            "dependencies": []
+        },
+        {
+            "name": "[NTGL] NukaTeam's Gun Lib",
+            "filename": "ntgl-1.20.1-3.1.2.jar",
+            "provider": "curseforge",
+            "projectId": 998474,
+            "versionId": 8371299,
+            "required": true,
+            "hash": "184dbd36ea2e71be030fa20ecca8b5512fa2fea0",
+            "hashFormat": "sha1",
+            "downloadMode": "metadata:curseforge",
+            "url": "",
+            "minecraftVersions": [
+                "1.20.1"
+            ],
+            "loaders": [
+                "neoforge",
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "ntgl-1.20.1-3.1.2.jar",
+            "dependencies": [
+                {
+                    "id": "317269",
+                    "type": "OPTIONAL"
+                },
+                {
+                    "id": "1023913",
+                    "type": "OPTIONAL"
+                },
+                {
+                    "id": "352835",
+                    "type": "OPTIONAL"
+                },
+                {
+                    "id": "388172",
+                    "type": "REQUIRED"
+                },
+                {
+                    "id": "422301",
+                    "type": "OPTIONAL"
+                },
+                {
+                    "id": "658587",
+                    "type": "OPTIONAL"
+                },
+                {
+                    "id": "321117",
+                    "type": "OPTIONAL"
+                },
+                {
+                    "id": "1285177",
+                    "type": "OPTIONAL"
+                }
+            ]
+        },
+        {
+            "name": "Oh The Biomes We've Gone",
+            "filename": "Oh-The-Biomes-Weve-Gone-Forge-1.8.0.jar",
+            "provider": "modrinth",
+            "projectId": "NTi7d3Xc",
+            "versionId": "8L5cwpjz",
+            "required": true,
+            "hash": "475063a73e381b8512126ae511e2642d7a67f00447695ac65c15a269c99dc05f83c5c12eaa84bcd1eb15dcface2dc5b42af355cdbabbe6b32dd6b621ca226fef",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/NTi7d3Xc/versions/8L5cwpjz/Oh-The-Biomes-Weve-Gone-Forge-1.8.0.jar",
+            "minecraftVersions": [
+                "1.20.1"
+            ],
+            "loaders": [
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "1.8.0-Forge",
+            "dependencies": [
+                {
+                    "id": "8BmcQJ2H",
+                    "type": "REQUIRED"
+                },
+                {
+                    "id": "kkmrDlKT",
+                    "type": "REQUIRED"
+                },
+                {
+                    "id": "ziOp6EO8",
+                    "type": "REQUIRED"
+                },
+                {
+                    "id": "g8NOG5OR",
+                    "type": "REQUIRED"
+                },
+                {
+                    "id": "6AQIaxuO",
+                    "type": "OPTIONAL"
+                }
+            ]
+        },
+        {
+            "name": "Oh The Trees You'll Grow",
+            "filename": "Oh-The-Trees-Youll-Grow-forge-1.20.1-1.7.0.jar",
+            "provider": "modrinth",
+            "projectId": "g8NOG5OR",
+            "versionId": "AAp1NdQX",
+            "required": true,
+            "hash": "8012ab4a89ee05038bebae17b8ed26b436b402c00d1d6e40f5e74f4272477159d155a61d56d6326a047b4cbf585d0afaf1484eafdf76265939b0206986e73f54",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/g8NOG5OR/versions/AAp1NdQX/Oh-The-Trees-Youll-Grow-forge-1.20.1-1.7.0.jar",
+            "minecraftVersions": [
+                "1.20.1"
+            ],
+            "loaders": [
+                "neoforge",
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "1.20.1-1.7.0-Forge",
+            "dependencies": []
+        },
+        {
+            "name": "Ok Zoomer - It's Zoom!",
+            "filename": "ok_zoomer-forge-5.4.0-beta.9.jar",
+            "provider": "modrinth",
+            "projectId": "aXf2OSFU",
+            "versionId": "8M3vtEOe",
+            "required": true,
+            "hash": "9102ecee4f762f94fa961d787d4a9fbe62774d1340664ed92f98930d379ba2ce6fb48329f4e3552e5fe66269d867c8a69b509c0adfee23dd9d86f8d442053c0f",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/aXf2OSFU/versions/8M3vtEOe/ok_zoomer-forge-5.4.0-beta.9.jar",
+            "minecraftVersions": [
+                "1.20.1"
+            ],
+            "loaders": [
+                "neoforge",
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "5.4.0-beta.9+forge",
+            "dependencies": []
+        },
+        {
+            "name": "Pehkui",
+            "filename": "Pehkui-3.8.2+1.20.1-forge.jar",
+            "provider": "modrinth",
+            "projectId": "t5W7Jfwy",
+            "versionId": "SQpqSgAE",
+            "required": true,
+            "hash": "e4660f0b5af6bfe2902ab39a6fbfa911856e0567bffc47842b482731da373afa4424b9e7cf47c61a0c2107445520475053709a6671d9eb4b7f4b55597729af3f",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/t5W7Jfwy/versions/SQpqSgAE/Pehkui-3.8.2%2B1.20.1-forge.jar",
+            "minecraftVersions": [
+                "1.20.1"
+            ],
+            "loaders": [
+                "neoforge",
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "3.8.2+1.20.1-forge",
+            "dependencies": []
+        },
+        {
+            "name": "Pehkui Resizer",
+            "filename": "Pehkui_Resizer_V3.5.4___1.20.1.jar",
+            "provider": "modrinth",
+            "projectId": "teQglm7i",
+            "versionId": "ZWzBIrpB",
+            "required": true,
+            "hash": "670c62e42a4054eb4ec907c3ae4c79ebf4b0e5a3ea3f84bdc2aa04fc76288b08af96f12392f230affdfab75b20ffcfdd37ced32c8a5794e76d8e75cc26c4a06a",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/teQglm7i/versions/ZWzBIrpB/Pehkui_Resizer_V3.5.4___1.20.1.jar",
+            "minecraftVersions": [
+                "1.20.1"
+            ],
+            "loaders": [
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "3.5.4",
+            "dependencies": [
+                {
+                    "id": "t5W7Jfwy",
+                    "type": "REQUIRED"
+                }
+            ]
+        },
+        {
+            "name": "playerAnimator",
+            "filename": "player-animation-lib-forge-1.0.2-rc1+1.20.jar",
+            "provider": "modrinth",
+            "projectId": "gedNE4y2",
+            "versionId": "xe2EVE6q",
+            "required": true,
+            "hash": "cb9f6a3aaa943823a85fdd716ddb3c7623af2b3520926c3a98d170c52d31908894808fb61c52bea39bae622dbab59d50b4bad56f7ca0533a9c3350d412c33729",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/gedNE4y2/versions/xe2EVE6q/player-animation-lib-forge-1.0.2-rc1%2B1.20.jar",
+            "minecraftVersions": [
+                "1.20",
+                "1.20.1"
+            ],
+            "loaders": [
+                "forge"
+            ],
+            "releaseType": "beta",
+            "versionNumber": "1.0.2-rc1+1.20-forge",
+            "dependencies": [
+                {
+                    "id": "aRnIEV0F",
+                    "type": "OPTIONAL"
+                }
+            ]
+        },
+        {
+            "name": "PlayerRevive",
+            "filename": "PlayerRevive_FORGE_v2.0.31_mc1.20.1.jar",
+            "provider": "modrinth",
+            "projectId": "ABIMzABM",
+            "versionId": "fUdn8MeF",
+            "required": true,
+            "hash": "26ec9d4f4ff24a3e708f5485e40149214df76734af90848429bc7cedf397230a8e7b8b11aa21f11e50ea2987c862f09186ecd1b55b7ded31c5c99d661ede686a",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/ABIMzABM/versions/fUdn8MeF/PlayerRevive_FORGE_v2.0.31_mc1.20.1.jar",
+            "minecraftVersions": [
+                "1.20.1"
+            ],
+            "loaders": [
+                "neoforge",
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "2.0.31",
+            "dependencies": [
+                {
+                    "id": "OsZiaDHq",
+                    "type": "REQUIRED"
+                }
+            ]
+        },
+        {
+            "name": "Puzzles Lib",
+            "filename": "PuzzlesLib-v8.1.33-1.20.1-Forge.jar",
+            "provider": "modrinth",
+            "projectId": "QAGBst4M",
+            "versionId": "mIyVGf3d",
+            "required": true,
+            "hash": "4e0a6243f70a7f99bb631940bfeca49f31b13ec34f338d994fe129f0445e738ffd925e5c440f4e6bf822f9013bb8c2156de6dfcd62741d85c3ca3e8221d86a19",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/QAGBst4M/versions/mIyVGf3d/PuzzlesLib-v8.1.33-1.20.1-Forge.jar",
+            "minecraftVersions": [
+                "1.20.1"
+            ],
+            "loaders": [
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "v8.1.33-1.20.1-Forge",
+            "dependencies": []
+        },
+        {
+            "name": "MrCrayfish's Furniture Mod: Refurbished",
+            "filename": "refurbished_furniture-forge-1.20.1-1.0.20.jar",
+            "provider": "curseforge",
+            "projectId": 897116,
+            "versionId": 7110922,
+            "required": true,
+            "hash": "ffb68135b88bdbb25224378c76daf922c3f4c322",
+            "hashFormat": "sha1",
+            "downloadMode": "metadata:curseforge",
+            "url": "",
+            "minecraftVersions": [
+                "1.20.1"
+            ],
+            "loaders": [
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "MrCrayfish's Furniture Mod: Refurbished 1.0.20",
+            "dependencies": [
+                {
+                    "id": "459701",
+                    "type": "OPTIONAL"
+                },
+                {
+                    "id": "549225",
+                    "type": "REQUIRED"
+                }
+            ]
+        },
+        {
+            "name": "Resourceful Config",
+            "filename": "resourcefulconfig-forge-1.20.1-2.1.3.jar",
+            "provider": "modrinth",
+            "projectId": "M1953qlQ",
+            "versionId": "DERs8u7v",
+            "required": true,
+            "hash": "2e05fe27529d00d7808a83dbe0c475a0fb96a20ebfd5c9767f4cc8dcd9a865e20a18de41fb9ed710e5cd2e0211c30303b43c1f22702af1d50ee7212ad83a54d3",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/M1953qlQ/versions/DERs8u7v/resourcefulconfig-forge-1.20.1-2.1.3.jar",
+            "minecraftVersions": [
+                "1.20.1"
+            ],
+            "loaders": [
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "2.1.3",
+            "dependencies": []
+        },
+        {
+            "name": "Resourceful Lib",
+            "filename": "resourcefullib-forge-1.20.1-2.1.29.jar",
+            "provider": "modrinth",
+            "projectId": "G1hIVOrD",
+            "versionId": "OhsHaCcW",
+            "required": true,
+            "hash": "8dbe951d431545a7d18081a8b11a52a248e6d8ff9862ae6462b0f5a6f57ff523af12704c3adb071ae99a7c5c1dd895bd7875dea59f9c4956c1597a668b6e8820",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/G1hIVOrD/versions/OhsHaCcW/resourcefullib-forge-1.20.1-2.1.29.jar",
+            "minecraftVersions": [
+                "1.20.1"
+            ],
+            "loaders": [
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "2.1.29",
+            "dependencies": []
+        },
+        {
+            "name": "RightClickHarvest",
+            "filename": "rightclickharvest-forge-4.6.1+1.20.1.jar",
+            "provider": "modrinth",
+            "projectId": "Cnejf5xM",
+            "versionId": "NFxivT5s",
+            "required": true,
+            "hash": "4c547c9ab385b2ea3f942f61fd8febe1b683f06c4e8bfb0d17b8089e1d3377402a2feda5c9af1799b6e13c6e3db0925dc52b498f4cf3bc115b36a353ec68e168",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/Cnejf5xM/versions/NFxivT5s/rightclickharvest-forge-4.6.1%2B1.20.1.jar",
+            "minecraftVersions": [
+                "1.20.1"
+            ],
+            "loaders": [
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "4.6.1+1.20.1",
+            "dependencies": [
+                {
+                    "id": "lhGA9TYQ",
+                    "type": "REQUIRED"
+                },
+                {
+                    "id": "IYY9Siz8",
+                    "type": "REQUIRED"
+                }
+            ]
+        },
+        {
+            "name": "Searchables",
+            "filename": "Searchables-forge-1.20.1-1.0.3.jar",
+            "provider": "modrinth",
+            "projectId": "fuuu3xnx",
+            "versionId": "PM9yAW1G",
+            "required": true,
+            "hash": "185617d6d446f3d4ef6c7d5c6ee4e2fb731a89f7495157313b21292ec6b8e3dbcc10c0379ab49ecb2d0c64d0a78df74750d7f7336d5e6c43516a7c92f278c0a2",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/fuuu3xnx/versions/PM9yAW1G/Searchables-forge-1.20.1-1.0.3.jar",
+            "minecraftVersions": [
+                "1.20.1"
+            ],
+            "loaders": [
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "1.0.3",
+            "dependencies": []
+        },
+        {
+            "name": "SecurityCraft",
+            "filename": "[1.20.1] SecurityCraft v1.10.2.1.jar",
+            "provider": "modrinth",
+            "projectId": "v8jzRtAt",
+            "versionId": "PhNy7dJx",
+            "required": true,
+            "hash": "587aa59ec4cdada8537d91c6353526f189aff9ece4df2d29cd5b1f0942c099713b319c0890016f2b75218aab243ec5a45f411f97c5df0f5b383b521883096208",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/v8jzRtAt/versions/PhNy7dJx/%5B1.20.1%5D SecurityCraft v1.10.2.1.jar",
+            "minecraftVersions": [
+                "1.20.1"
+            ],
+            "loaders": [
+                "neoforge",
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "v1.10.2.1",
+            "dependencies": []
+        },
+        {
+            "name": "Moonlight Lib",
+            "filename": "moonlight-1.20-2.16.34-forge.jar",
+            "provider": "curseforge",
+            "projectId": 499980,
+            "versionId": 8261419,
+            "required": true,
+            "hash": "5e20f2f0ce56a534accb32f80853d5a246599a4d",
+            "hashFormat": "sha1",
+            "downloadMode": "metadata:curseforge",
+            "url": "",
+            "minecraftVersions": [
+                "1.20.1"
+            ],
+            "loaders": [
+                "neoforge",
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "moonlight-1.20-2.16.34-forge.jar",
+            "dependencies": []
+        },
+        {
+            "name": "Simple Hats",
+            "filename": "simplehats-forge-1.20.1-0.4.0a.jar",
+            "provider": "modrinth",
+            "projectId": "iSkQCp6b",
+            "versionId": "LcbDTCwp",
+            "required": true,
+            "hash": "453b4607c14c08f409f85357aecea8ed7715628a650f184869cb9e27e1997253283897eacba46d56f0c9414d78dd1db534976a55e3a97707de0f13d0f1cfd770",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/iSkQCp6b/versions/LcbDTCwp/simplehats-forge-1.20.1-0.4.0a.jar",
+            "minecraftVersions": [
+                "1.20.1"
+            ],
+            "loaders": [
+                "neoforge",
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "1.20.1-Neo-0.4.0a",
+            "dependencies": [
+                {
+                    "id": "9s6osm5g",
+                    "type": "REQUIRED"
+                },
+                {
+                    "id": "jtmvUHXj",
+                    "type": "REQUIRED"
+                }
+            ]
+        },
+        {
+            "name": "Simple Voice Chat",
+            "filename": "voicechat-forge-1.20.1-2.6.21.jar",
+            "provider": "modrinth",
+            "projectId": "9eGKb6K1",
+            "versionId": "3FOFOFRt",
+            "required": true,
+            "hash": "0335bcd0c2a91c01752d38bff7b66332153555cccdabfd7fd85bf24b40fbf7ad7e51bb7dfd1d11517dd5056f6a41edde8b86510a4559fb06bef7dc3d50dc83fd",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/9eGKb6K1/versions/3FOFOFRt/voicechat-forge-1.20.1-2.6.21.jar",
+            "minecraftVersions": [
+                "1.20.1"
+            ],
+            "loaders": [
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "forge-1.20.1-2.6.21",
+            "dependencies": [
+                {
+                    "id": "9s6osm5g",
+                    "type": "OPTIONAL"
+                },
+                {
+                    "id": "qyVF9oeo",
+                    "type": "OPTIONAL"
+                }
+            ]
+        },
+        {
+            "name": "Create Slice & Dice",
+            "filename": "sliceanddice-forge-3.6.0.jar",
+            "provider": "modrinth",
+            "projectId": "GmjmRQ0A",
+            "versionId": "KWLI8Ng7",
+            "required": true,
+            "hash": "b6108218d933ba6b612f2018efe1329957c0cde473f07bc405f7defa76602bb2f6749763db5734ec8547e8c5c1908ef57a9c539c90c23068ed9ab5be267e73a0",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/GmjmRQ0A/versions/KWLI8Ng7/sliceanddice-forge-3.6.0.jar",
+            "minecraftVersions": [
+                "1.20.1"
+            ],
+            "loaders": [
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "3.6.0",
+            "dependencies": [
+                {
+                    "id": "LNytGWDc",
+                    "type": "REQUIRED"
+                },
+                {
+                    "id": "R2OftAxM",
+                    "type": "OPTIONAL"
+                },
+                {
+                    "id": "bCxmmxKN",
+                    "type": "OPTIONAL"
+                },
+                {
+                    "id": "JWGBpFUP",
+                    "type": "OPTIONAL"
+                }
+            ]
+        },
+        {
+            "name": "Sophisticated Backpacks Create Integration",
+            "filename": "sophisticatedbackpackscreateintegration-1.20.1-0.1.8.116.jar",
+            "provider": "modrinth",
+            "projectId": "s85zLEDe",
+            "versionId": "UEi0GetE",
+            "required": true,
+            "hash": "07b2737d77b16b35055ef25f006121b775f9fe73c2f9f319b9ee3c8dcd83a5ae8b7b7a2af7931b2eb6f5aba187fa88f2ce801fbe036480b24edf1a72f8bf8d1a",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/s85zLEDe/versions/UEi0GetE/sophisticatedbackpackscreateintegration-1.20.1-0.1.8.116.jar",
+            "minecraftVersions": [
+                "1.20.1"
+            ],
+            "loaders": [
+                "neoforge",
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "1.20.1-0.1.8.116",
+            "dependencies": [
+                {
+                    "id": "nmoqTijg",
+                    "type": "REQUIRED"
+                },
+                {
+                    "id": "LNytGWDc",
+                    "type": "REQUIRED"
+                },
+                {
+                    "id": "TyCTlI4b",
+                    "type": "REQUIRED"
+                },
+                {
+                    "id": "u6dRKJwZ",
+                    "type": "OPTIONAL"
+                }
+            ]
+        },
+        {
+            "name": "Sophisticated Backpacks",
+            "filename": "sophisticatedbackpacks-1.20.1-3.24.62.2017.jar",
+            "provider": "modrinth",
+            "projectId": "TyCTlI4b",
+            "versionId": "yTarLjsD",
+            "required": true,
+            "hash": "e80aca3b06cad1281b6e4b52ff67663db82a710096125964f22e7797cc07f0bcf086fa7e62017f846052fee9fbabd50c60c1064485c6b7e565c0fef8ddf634e5",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/TyCTlI4b/versions/yTarLjsD/sophisticatedbackpacks-1.20.1-3.24.62.2017.jar",
+            "minecraftVersions": [
+                "1.20.1"
+            ],
+            "loaders": [
+                "neoforge",
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "1.20.1-3.24.62.2017",
+            "dependencies": [
+                {
+                    "id": "b1fMg6sH",
+                    "type": "OPTIONAL"
+                },
+                {
+                    "id": "vvuO3ImH",
+                    "type": "OPTIONAL"
+                },
+                {
+                    "id": "nmoqTijg",
+                    "type": "REQUIRED"
+                },
+                {
+                    "id": "u6dRKJwZ",
+                    "type": "OPTIONAL"
+                },
+                {
+                    "id": "DMu0oBKf",
+                    "type": "OPTIONAL"
+                },
+                {
+                    "id": "vRYk0bv7",
+                    "type": "OPTIONAL"
+                },
+                {
+                    "id": "BAscRYKm",
+                    "type": "OPTIONAL"
+                }
+            ]
+        },
+        {
+            "name": "Sophisticated Core",
+            "filename": "sophisticatedcore-1.20.1-1.3.73.2192.jar",
+            "provider": "modrinth",
+            "projectId": "nmoqTijg",
+            "versionId": "caACbM4f",
+            "required": true,
+            "hash": "f81496dacd1784f1cbdae05337ef69f2c16173d033c266c27d76ae7711ace91004e19e2f36a9eb8d17ea0c4853b384da36884e26b8aaa394a208f0e555203128",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/nmoqTijg/versions/caACbM4f/sophisticatedcore-1.20.1-1.3.73.2192.jar",
+            "minecraftVersions": [
+                "1.20.1"
+            ],
+            "loaders": [
+                "neoforge",
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "1.20.1-1.3.73.2192",
+            "dependencies": []
+        },
+        {
+            "name": "Sophisticated JEI Index",
+            "filename": "sophisticated_jei_index-1.1.1+1.20.1.jar",
+            "provider": "modrinth",
+            "projectId": "u7Rbf90L",
+            "versionId": "vBrkbX64",
+            "required": true,
+            "hash": "e2f5813981e5d78957813bfffa3c8cf57efcb6b0685df86aa095030e706c424711ea43ad5ac97dba10a61ff596ef64d3d8f00b23da90e2b02843dc9a77ddaa17",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/u7Rbf90L/versions/vBrkbX64/sophisticated_jei_index-1.1.1%2B1.20.1.jar",
+            "minecraftVersions": [
+                "1.20.1"
+            ],
+            "loaders": [
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "1.1.1",
+            "dependencies": []
+        },
+        {
+            "name": "Sophisticated Storage",
+            "filename": "sophisticatedstorage-1.20.1-1.4.78.2029.jar",
+            "provider": "modrinth",
+            "projectId": "hMlaZH8f",
+            "versionId": "9zc0TRvC",
+            "required": true,
+            "hash": "54c7befeb0b895f0f7d06a3f7c51ce2c8e92019cdddd648acc0b1b42db5a236b719256895dff3cc675e9fa43f979b864d7d669c0a19725fd18442257e4a10bda",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/hMlaZH8f/versions/9zc0TRvC/sophisticatedstorage-1.20.1-1.4.78.2029.jar",
+            "minecraftVersions": [
+                "1.20.1"
+            ],
+            "loaders": [
+                "neoforge",
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "1.20.1-1.4.78.2029",
+            "dependencies": [
+                {
+                    "id": "b1fMg6sH",
+                    "type": "OPTIONAL"
+                },
+                {
+                    "id": "u6dRKJwZ",
+                    "type": "OPTIONAL"
+                },
+                {
+                    "id": "BAscRYKm",
+                    "type": "OPTIONAL"
+                },
+                {
+                    "id": "nmoqTijg",
+                    "type": "REQUIRED"
+                },
+                {
+                    "id": "qnQsVE2z",
+                    "type": "OPTIONAL"
+                },
+                {
+                    "id": "vRYk0bv7",
+                    "type": "OPTIONAL"
+                },
+                {
+                    "id": "DMu0oBKf",
+                    "type": "OPTIONAL"
+                }
+            ]
+        },
+        {
+            "name": "Storage Drawers",
+            "filename": "StorageDrawers-forge-1.20.1-12.14.3.jar",
+            "provider": "modrinth",
+            "projectId": "guitPqEi",
+            "versionId": "8raubcF4",
+            "required": true,
+            "hash": "074c9da64873ffaffc80f0abfbbc6decbed4cb5615a94b226344719728432312e7268ed8f088371466d7594813541fbb2a46dc7d08c9d1f3c1416f89dac2bdaf",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/guitPqEi/versions/8raubcF4/StorageDrawers-forge-1.20.1-12.14.3.jar",
+            "minecraftVersions": [
+                "1.20.1"
+            ],
+            "loaders": [
+                "neoforge",
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "1.20.1-12.14.3",
+            "dependencies": []
+        },
+        {
+            "name": "SuperMartijn642's Core Lib",
+            "filename": "supermartijn642corelib-1.1.21-forge-mc1.20.1.jar",
+            "provider": "modrinth",
+            "projectId": "rOUBggPv",
+            "versionId": "2vPGeoPe",
+            "required": true,
+            "hash": "3e96e92e60dff9a663191bcddd22af55e6df0a89a9aa7594b34cda43bbf858ba086e408dbbfe3cf40978c8449fe5cf88276aec17ac922569bdab13c7ceced688",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/rOUBggPv/versions/2vPGeoPe/supermartijn642corelib-1.1.21-forge-mc1.20.1.jar",
+            "minecraftVersions": [
+                "1.20",
+                "1.20.1"
+            ],
+            "loaders": [
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "1.1.21-forge-mc1.20.1",
+            "dependencies": []
+        },
+        {
+            "name": "Supplementaries",
+            "filename": "supplementaries-1.20-3.1.43-forge.jar",
+            "provider": "modrinth",
+            "projectId": "fFEIiSDQ",
+            "versionId": "S0TIJ1hU",
+            "required": true,
+            "hash": "70faa19266ffd70787f6484aa1ab5cbea69c9f39af36faebb6534eeb2123e333c5b39df06a151b52d78d701a037a36adc53eb5aa51a6710096e6ee216b45d59c",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/fFEIiSDQ/versions/S0TIJ1hU/supplementaries-1.20-3.1.43-forge.jar",
+            "minecraftVersions": [
+                "1.20.1"
+            ],
+            "loaders": [
+                "neoforge",
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "1.20-3.1.43-forge",
+            "dependencies": [
+                {
+                    "id": "twkfQtEc",
+                    "type": "REQUIRED"
+                }
+            ]
+        },
+        {
+            "name": "TerraBlender",
+            "filename": "TerraBlender-forge-1.20.1-3.0.1.10.jar",
+            "provider": "modrinth",
+            "projectId": "kkmrDlKT",
+            "versionId": "zGconCHG",
+            "required": true,
+            "hash": "69b819eb021032561626cf436635c31dced45baae6ef9f21d95690e1e57c55914dc72a43a4ccd0a3337cd32e89ff592056be8dc6b7bd12842438500a157a6275",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/kkmrDlKT/versions/zGconCHG/TerraBlender-forge-1.20.1-3.0.1.10.jar",
+            "minecraftVersions": [
+                "1.20.1"
+            ],
+            "loaders": [
+                "forge"
+            ],
+            "releaseType": "beta",
+            "versionNumber": "3.0.1.10",
+            "dependencies": []
+        },
+        {
+            "name": "[TaCZ] Timeless and Classics Zero",
+            "filename": "tacz-1.20.1-1.1.8-hotfix.jar",
+            "provider": "modrinth",
+            "projectId": "SzzJttH8",
+            "versionId": "yOVIzIJR",
+            "required": true,
+            "hash": "bf35bd51dfe39fdffc3f4f7b6695e85348b64807e2977bca813decdfbe4c2d7cd5e15c437e42a012aaa067e271b02cd92f3d32e4fa08d36fedc141e668a115c6",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/SzzJttH8/versions/yOVIzIJR/tacz-1.20.1-1.1.8-hotfix.jar",
+            "minecraftVersions": [
+                "1.20.1"
+            ],
+            "loaders": [
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "1.1.8-hotfix",
+            "dependencies": []
+        },
+        {
+            "name": "Tom's Simple Storage Mod",
+            "filename": "toms_storage-1.20-1.7.1.jar",
+            "provider": "modrinth",
+            "projectId": "XZNI4Cpy",
+            "versionId": "XELeoPjZ",
+            "required": true,
+            "hash": "ac5a057a9fdafa851fca05be77ba68548082119e0b7ac19f2197e418da703bf60f341e65ec76ddc73003682b89159850f6b9dff65147df3c0c9b8e6f58460ce0",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/XZNI4Cpy/versions/XELeoPjZ/toms_storage-1.20-1.7.1.jar",
+            "minecraftVersions": [
+                "1.20",
+                "1.20.1"
+            ],
+            "loaders": [
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "1.20-1.7.1",
+            "dependencies": [
+                {
+                    "id": "u6dRKJwZ",
+                    "type": "OPTIONAL"
+                },
+                {
+                    "id": "fRiHVvU7",
+                    "type": "OPTIONAL"
+                },
+                {
+                    "id": "nfn13YXA",
+                    "type": "OPTIONAL"
+                }
+            ]
+        },
+        {
+            "name": "TrashSlot",
+            "filename": "trashslot-forge-1.20.1-15.1.5.jar",
+            "provider": "modrinth",
+            "projectId": "vRYk0bv7",
+            "versionId": "r0K8IYd7",
+            "required": true,
+            "hash": "ce2ca0171e87eebe2d048202bfaa634537dabe96b16836f8025c1f48a8509aa2ae4494e00eddab794399c630d052530982507e269b12be12282a1d017f69b2cf",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/vRYk0bv7/versions/r0K8IYd7/trashslot-forge-1.20.1-15.1.5.jar",
+            "minecraftVersions": [
+                "1.20.1"
+            ],
+            "loaders": [
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "15.1.5+forge-1.20.1",
+            "dependencies": [
+                {
+                    "id": "MBAkmtvl",
+                    "type": "REQUIRED"
+                }
+            ]
+        },
+        {
+            "name": "Traveler's Backpack",
+            "filename": "travelersbackpack-forge-1.20.1-9.1.56.jar",
+            "provider": "modrinth",
+            "projectId": "rlloIFEV",
+            "versionId": "YU3VeLg8",
+            "required": true,
+            "hash": "773f5cb4e37f04ca6839b0aebf894a13ee81d1912247221a585946f8127e01a38157ab5c20040acfc87ce40d8b7c037d47c534adabb1cbd85ff3413a5b4776a2",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/rlloIFEV/versions/YU3VeLg8/travelersbackpack-forge-1.20.1-9.1.56.jar",
+            "minecraftVersions": [
+                "1.20.1"
+            ],
+            "loaders": [
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "1.20.1-9.1.56",
+            "dependencies": [
+                {
+                    "id": "fRiHVvU7",
+                    "type": "OPTIONAL"
+                },
+                {
+                    "id": "DMu0oBKf",
+                    "type": "OPTIONAL"
+                },
+                {
+                    "id": "u6dRKJwZ",
+                    "type": "OPTIONAL"
+                },
+                {
+                    "id": "nfn13YXA",
+                    "type": "OPTIONAL"
+                },
+                {
+                    "id": "vvuO3ImH",
+                    "type": "OPTIONAL"
+                },
+                {
+                    "id": "tagwiZkJ",
+                    "type": "OPTIONAL"
+                },
+                {
+                    "id": "vRYk0bv7",
+                    "type": "OPTIONAL"
+                },
+                {
+                    "id": "SaCpeal4",
+                    "type": "OPTIONAL"
+                }
+            ]
+        },
+        {
+            "name": "Ube's Delight",
+            "filename": "ubesdelight-forge-1.20.1-0.4.14.jar",
+            "provider": "modrinth",
+            "projectId": "PYjpoAys",
+            "versionId": "UK9qL8Nu",
+            "required": true,
+            "hash": "108b7935f92b3206e378e1085458c930936351829dd415a944287b40a5650c0203cb500006f70e8cea5664a3f157a24af92de15cfdf22f1290ea543556c04f52",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/PYjpoAys/versions/UK9qL8Nu/ubesdelight-forge-1.20.1-0.4.14.jar",
+            "minecraftVersions": [
+                "1.20",
+                "1.20.1"
+            ],
+            "loaders": [
+                "neoforge",
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "forge-1.20.1-0.4.14",
+            "dependencies": [
+                {
+                    "id": "codAaoxh",
+                    "type": "EMBEDDED"
+                },
+                {
+                    "id": "u6dRKJwZ",
+                    "type": "OPTIONAL"
+                },
+                {
+                    "id": "fRiHVvU7",
+                    "type": "OPTIONAL"
+                },
+                {
+                    "id": "nfn13YXA",
+                    "type": "OPTIONAL"
+                },
+                {
+                    "id": "R2OftAxM",
+                    "type": "REQUIRED"
+                }
+            ]
+        },
+        {
+            "name": "Visual Workbench",
+            "filename": "VisualWorkbench-v8.0.1-1.20.1-Forge.jar",
+            "provider": "modrinth",
+            "projectId": "kfqD1JRw",
+            "versionId": "qaWEHDC3",
+            "required": true,
+            "hash": "f6167cf80d9163d1beae3dce898949a0b08afe9da099b030d95144a9a8de69021f7d1eaf0a93ce10ef12f5117d18d3fe124ff35b2ae76328da1c307ca96016c8",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/kfqD1JRw/versions/qaWEHDC3/VisualWorkbench-v8.0.1-1.20.1-Forge.jar",
+            "minecraftVersions": [
+                "1.20.1"
+            ],
+            "loaders": [
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "v8.0.1-1.20.1-Forge",
+            "dependencies": [
+                {
+                    "id": "QAGBst4M",
+                    "type": "REQUIRED"
+                }
+            ]
+        },
+        {
+            "name": "Waystones",
+            "filename": "waystones-forge-1.20.1-14.1.20.jar",
+            "provider": "modrinth",
+            "projectId": "LOpKHB2A",
+            "versionId": "sKoHLGbK",
+            "required": true,
+            "hash": "ea9970aeec627f37806eb316dfdc5aa2c38a6cd30479997c451d7642407d1bd308f6e9b02d1cc82c777a89531aada805bfb54f4a8889f77c5eb00ed972f92c0c",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/LOpKHB2A/versions/sKoHLGbK/waystones-forge-1.20.1-14.1.20.jar",
+            "minecraftVersions": [
+                "1.20",
+                "1.20.1"
+            ],
+            "loaders": [
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "14.1.20+forge-1.20.1",
+            "dependencies": [
+                {
+                    "id": "MBAkmtvl",
+                    "type": "REQUIRED"
+                }
+            ]
+        },
+        {
+            "name": "What Are They Up To (Watut)",
+            "filename": "watut-forge-1.20.1-1.2.3.jar",
+            "provider": "modrinth",
+            "projectId": "AtB5mHky",
+            "versionId": "GpiXMxvP",
+            "required": true,
+            "hash": "80be5011a6f3a933bf87cc1815febde79e915a9fb3d2ff304bfda199ad8a09e5acb32b91dc6a56db4765209c83ca977870b11bc7dbfeb7c4efa0fda6cc370386",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/AtB5mHky/versions/GpiXMxvP/watut-forge-1.20.1-1.2.3.jar",
+            "minecraftVersions": [
+                "1.20.1"
+            ],
+            "loaders": [
+                "neoforge",
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "1.20.1-1.2.3",
+            "dependencies": [
+                {
+                    "id": "rLLJ1OZM",
+                    "type": "REQUIRED"
+                }
+            ]
+        },
+        {
+            "name": "WorldEdit",
+            "filename": "worldedit-mod-7.2.15.jar",
+            "provider": "curseforge",
+            "projectId": 225608,
+            "versionId": 4586218,
+            "required": true,
+            "hash": "9c52765ca56f917ef8cbafc20e9a4f45c346508f",
+            "hashFormat": "sha1",
+            "downloadMode": "metadata:curseforge",
+            "url": "",
+            "minecraftVersions": [
+                "1.20",
+                "1.20.1"
+            ],
+            "loaders": [
+                "forge",
+                "fabric"
+            ],
+            "releaseType": "release",
+            "versionNumber": "WorldEdit 7.2.15 (Forge/Fabric for MC 1.20/1.20.1)",
+            "dependencies": []
+        },
+        {
+            "name": "Xaero's Minimap",
+            "filename": "xaerominimap-forge-1.20.1-26.4.2.jar",
+            "provider": "modrinth",
+            "projectId": "1bokaNcj",
+            "versionId": "A1JacFsh",
+            "required": true,
+            "hash": "6bf30d544f79e7ecf0a2522c1294cb8bbb1eaf731f428b1ae10edce20d0eacf831f407625c844bf4ee84816a78897a206e59525a0fb4722c4081d330b0c12500",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/1bokaNcj/versions/A1JacFsh/xaerominimap-forge-1.20.1-26.4.2.jar",
+            "minecraftVersions": [
+                "1.20",
+                "1.20.1"
+            ],
+            "loaders": [
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "forge-1.20.1-26.4.2",
+            "dependencies": [
+                {
+                    "id": "gF3BGWvG",
+                    "type": "OPTIONAL"
+                }
+            ]
+        },
+        {
+            "name": "Xaero's World Map",
+            "filename": "xaeroworldmap-forge-1.20.1-1.44.2.jar",
+            "provider": "modrinth",
+            "projectId": "NcUtCpym",
+            "versionId": "kQ06HixR",
+            "required": true,
+            "hash": "5df9413dcf94d80247fa5a427eec3a8058434978f918b1d5e99f5f07cdcca02c47e664de84e3b0060af22aaced9d54a24827350a950337a431330d07f96b3095",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/NcUtCpym/versions/kQ06HixR/xaeroworldmap-forge-1.20.1-1.44.2.jar",
+            "minecraftVersions": [
+                "1.20",
+                "1.20.1"
+            ],
+            "loaders": [
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "forge-1.20.1-1.44.2",
+            "dependencies": [
+                {
+                    "id": "gF3BGWvG",
+                    "type": "OPTIONAL"
+                }
+            ]
+        },
+        {
+            "name": "YUNG's API",
+            "filename": "YungsApi-1.20-Forge-4.0.6.jar",
+            "provider": "modrinth",
+            "projectId": "Ua7DFN59",
+            "versionId": "PJOYAmAs",
+            "required": true,
+            "hash": "7d83d94a90e55a712f6508485c044ff202916e9b9b9166b75177cb8f2eb919543bbbe1547d11c41cfd4763820f934235f47c0b26dd9e89bc1030954afa9fb889",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/Ua7DFN59/versions/PJOYAmAs/YungsApi-1.20-Forge-4.0.6.jar",
+            "minecraftVersions": [
+                "1.20",
+                "1.20.1"
+            ],
+            "loaders": [
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "1.20-Forge-4.0.6",
+            "dependencies": []
+        },
+        {
+            "name": "YUNG's Better Caves",
+            "filename": "YungsBetterCaves-1.20.1-Forge-2.0.5.jar",
+            "provider": "modrinth",
+            "projectId": "Dfu00ggU",
+            "versionId": "13ttHRPR",
+            "required": true,
+            "hash": "e211aff143a238d78765a3b6bcd988bcd1eb5918221994927a64285d3bb9c49bbe10c14bcce2afa212f07e83b57013fddb578d739e3fe27f1f3a43f6314ff494",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/Dfu00ggU/versions/13ttHRPR/YungsBetterCaves-1.20.1-Forge-2.0.5.jar",
+            "minecraftVersions": [
+                "1.20.1"
+            ],
+            "loaders": [
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "1.20.1-Forge-2.0.5",
+            "dependencies": [
+                {
+                    "id": "Ua7DFN59",
+                    "type": "REQUIRED"
+                }
+            ]
+        },
+        {
+            "name": "YUNG's Better Desert Temples",
+            "filename": "YungsBetterDesertTemples-1.20-Forge-3.0.3.jar",
+            "provider": "modrinth",
+            "projectId": "XNlO7sBv",
+            "versionId": "lRK2ZA9U",
+            "required": true,
+            "hash": "30ce20533c9a2cc11608120dd7d5fb0f9b48e11873eb1a653d2d88022d351f2c25b316b63df0dbc693de598e0f1c768a36865e0759dbab23e2f2e36a3918470a",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/XNlO7sBv/versions/lRK2ZA9U/YungsBetterDesertTemples-1.20-Forge-3.0.3.jar",
+            "minecraftVersions": [
+                "1.20",
+                "1.20.1"
+            ],
+            "loaders": [
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "1.20-Forge-3.0.3",
+            "dependencies": [
+                {
+                    "id": "Ua7DFN59",
+                    "type": "REQUIRED"
+                }
+            ]
+        },
+        {
+            "name": "YUNG's Better Dungeons",
+            "filename": "YungsBetterDungeons-1.20-Forge-4.0.4.jar",
+            "provider": "modrinth",
+            "projectId": "o1C1Dkj5",
+            "versionId": "kPiQ6v4q",
+            "required": true,
+            "hash": "56bd11a7aca3bacb908381a668af8f5b574c5557c21370ace783d637c949802187110a4f5dc26afae4d9af74cdf64cee81d59fac3513a9bec3f921193fc938b8",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/o1C1Dkj5/versions/kPiQ6v4q/YungsBetterDungeons-1.20-Forge-4.0.4.jar",
+            "minecraftVersions": [
+                "1.20",
+                "1.20.1"
+            ],
+            "loaders": [
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "1.20-Forge-4.0.4",
+            "dependencies": [
+                {
+                    "id": "Ua7DFN59",
+                    "type": "REQUIRED"
+                }
+            ]
+        },
+        {
+            "name": "YUNG's Better End Island",
+            "filename": "YungsBetterEndIsland-1.20-Forge-2.0.6.jar",
+            "provider": "modrinth",
+            "projectId": "2BwBOmBQ",
+            "versionId": "Izqhg3Va",
+            "required": true,
+            "hash": "a51b76fc41d19276bea2ebe081b153d3be53c502ef9de93593990f8b7bf644e3e4fd4cff17477abce16692f23aff3077be1762606f10ca1058771741ad652e2e",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/2BwBOmBQ/versions/Izqhg3Va/YungsBetterEndIsland-1.20-Forge-2.0.6.jar",
+            "minecraftVersions": [
+                "1.20",
+                "1.20.1"
+            ],
+            "loaders": [
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "1.20-Forge-2.0.6",
+            "dependencies": [
+                {
+                    "id": "Ua7DFN59",
+                    "type": "REQUIRED"
+                }
+            ]
+        },
+        {
+            "name": "YUNG's Better Jungle Temples",
+            "filename": "YungsBetterJungleTemples-1.20-Forge-2.0.5.jar",
+            "provider": "modrinth",
+            "projectId": "z9Ve58Ih",
+            "versionId": "CXQc6EnZ",
+            "required": true,
+            "hash": "433d84ca6a8f223376bc8e30c7ca2407294876c2fe8ef51fec9f12358b5b4f84c76031abba74a256eec12146817690224b141668890ebba99decd411d6b37b9c",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/z9Ve58Ih/versions/CXQc6EnZ/YungsBetterJungleTemples-1.20-Forge-2.0.5.jar",
+            "minecraftVersions": [
+                "1.20",
+                "1.20.1"
+            ],
+            "loaders": [
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "1.20-Forge-2.0.5",
+            "dependencies": [
+                {
+                    "id": "Ua7DFN59",
+                    "type": "REQUIRED"
+                }
+            ]
+        },
+        {
+            "name": "YUNG's Better Mineshafts",
+            "filename": "YungsBetterMineshafts-1.20-Forge-4.0.4.jar",
+            "provider": "modrinth",
+            "projectId": "HjmxVlSr",
+            "versionId": "kVO57zxB",
+            "required": true,
+            "hash": "1e8237e0fc4dd7e00a3ad30c5c02a82eeed63aed4544310cfdee863ac95b626874773f599779b985e6e460869804c036e1336c2720fbb34a3b09445434c063c8",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/HjmxVlSr/versions/kVO57zxB/YungsBetterMineshafts-1.20-Forge-4.0.4.jar",
+            "minecraftVersions": [
+                "1.20",
+                "1.20.1"
+            ],
+            "loaders": [
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "1.20-Forge-4.0.4",
+            "dependencies": [
+                {
+                    "id": "Ua7DFN59",
+                    "type": "REQUIRED"
+                }
+            ]
+        },
+        {
+            "name": "YUNG's Better Nether Fortresses",
+            "filename": "YungsBetterNetherFortresses-1.20-Forge-2.0.6.jar",
+            "provider": "modrinth",
+            "projectId": "Z2mXHnxP",
+            "versionId": "2nUEz0zq",
+            "required": true,
+            "hash": "bceefeaf84dffd7386a61118d6b1c6c2107e17e7a8f4340eff2c1f0234dba0e6d8f43903521d5a70334362ab6e4069788e5b29cf42d8ee9cd4f2a98feb64112b",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/Z2mXHnxP/versions/2nUEz0zq/YungsBetterNetherFortresses-1.20-Forge-2.0.6.jar",
+            "minecraftVersions": [
+                "1.20",
+                "1.20.1"
+            ],
+            "loaders": [
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "1.20-Forge-2.0.6",
+            "dependencies": [
+                {
+                    "id": "Ua7DFN59",
+                    "type": "REQUIRED"
+                }
+            ]
+        },
+        {
+            "name": "YUNG's Better Ocean Monuments",
+            "filename": "YungsBetterOceanMonuments-1.20-Forge-3.0.4.jar",
+            "provider": "modrinth",
+            "projectId": "3dT9sgt4",
+            "versionId": "SN4iZ7wf",
+            "required": true,
+            "hash": "2c67db8caf355f2e3b4a6f2b99c64abfa3b084163b38e18aba7f8ad0fb297fab3bfa7a61cd6bff5391fdaad185ed8233f22080a2cd35f1428d2d04dbfdf10a1d",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/3dT9sgt4/versions/SN4iZ7wf/YungsBetterOceanMonuments-1.20-Forge-3.0.4.jar",
+            "minecraftVersions": [
+                "1.20",
+                "1.20.1"
+            ],
+            "loaders": [
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "1.20-Forge-3.0.4",
+            "dependencies": [
+                {
+                    "id": "Ua7DFN59",
+                    "type": "REQUIRED"
+                }
+            ]
+        },
+        {
+            "name": "YUNG's Better Strongholds",
+            "filename": "YungsBetterStrongholds-1.20-Forge-4.0.3.jar",
+            "provider": "modrinth",
+            "projectId": "kidLKymU",
+            "versionId": "rwiShgsc",
+            "required": true,
+            "hash": "7fbb51f761ca1a514ce95e9967bcc93c09766a8929f19029390d46b18d7e876c4354d11350a5f8410dc28e485680f4eaf1019e4bd074cff34e8cfc5b232480d4",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/kidLKymU/versions/rwiShgsc/YungsBetterStrongholds-1.20-Forge-4.0.3.jar",
+            "minecraftVersions": [
+                "1.20",
+                "1.20.1"
+            ],
+            "loaders": [
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "1.20-Forge-4.0.3",
+            "dependencies": [
+                {
+                    "id": "Ua7DFN59",
+                    "type": "REQUIRED"
+                }
+            ]
+        },
+        {
+            "name": "YUNG's Better Witch Huts",
+            "filename": "YungsBetterWitchHuts-1.20-Forge-3.0.3.jar",
+            "provider": "modrinth",
+            "projectId": "t5FRdP87",
+            "versionId": "mwlYB7rq",
+            "required": true,
+            "hash": "c17d5b07ecf44aa4539bd7af37882a63ab73ec10dd2c9675ed715e7c1f0ee73ee9d9c32bfddfb67f8f3c6f8b753cb965119e31e64926ea6d50ef33f881fc61f1",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/t5FRdP87/versions/mwlYB7rq/YungsBetterWitchHuts-1.20-Forge-3.0.3.jar",
+            "minecraftVersions": [
+                "1.20",
+                "1.20.1"
+            ],
+            "loaders": [
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "1.20-Forge-3.0.3",
+            "dependencies": [
+                {
+                    "id": "Ua7DFN59",
+                    "type": "REQUIRED"
+                }
+            ]
+        },
+        {
+            "name": "YUNG's Bridges",
+            "filename": "YungsBridges-1.20-Forge-4.0.3.jar",
+            "provider": "modrinth",
+            "projectId": "Ht4BfYp6",
+            "versionId": "KgO1gfM2",
+            "required": true,
+            "hash": "2705fbaeb62115c5604719d68756f723a974ea9a62a4194771ebbea877ee715de72cefe3b01ec0d318d4d6fe2e9de87e6a7122ef21ee54d48153e84cb7bae0c6",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/Ht4BfYp6/versions/KgO1gfM2/YungsBridges-1.20-Forge-4.0.3.jar",
+            "minecraftVersions": [
+                "1.20",
+                "1.20.1"
+            ],
+            "loaders": [
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "1.20-Forge-4.0.3",
+            "dependencies": [
+                {
+                    "id": "Ua7DFN59",
+                    "type": "REQUIRED"
+                }
+            ]
+        },
+        {
+            "name": "YUNG's Cave Biomes",
+            "filename": "YungsCaveBiomes-1.20.1-Forge-2.0.5.jar",
+            "provider": "modrinth",
+            "projectId": "cs7iGVq1",
+            "versionId": "UzIwhtOp",
+            "required": true,
+            "hash": "c09d75eec4a9e4245e2f0a7cb0b64b6da70ccd46b3d351c2d6baded3deb2f15f6980229be40cc85557b2ccd468f5a4d6b74bb28190723647076aba49bebcaf36",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/cs7iGVq1/versions/UzIwhtOp/YungsCaveBiomes-1.20.1-Forge-2.0.5.jar",
+            "minecraftVersions": [
+                "1.20.1"
+            ],
+            "loaders": [
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "1.20.1-Forge-2.0.5",
+            "dependencies": [
+                {
+                    "id": "8BmcQJ2H",
+                    "type": "REQUIRED"
+                },
+                {
+                    "id": "Ua7DFN59",
+                    "type": "REQUIRED"
+                },
+                {
+                    "id": "kkmrDlKT",
+                    "type": "REQUIRED"
+                }
+            ]
+        },
+        {
+            "name": "YUNG's Extras",
+            "filename": "YungsExtras-1.20-Forge-4.0.3.jar",
+            "provider": "modrinth",
+            "projectId": "ZYgyPyfq",
+            "versionId": "h4m8J7w8",
+            "required": true,
+            "hash": "2c70e8e2c8e6161139bd19d302e225f7c12dc44f9cbdd63f4a548645fe923eb16de930abe2d2f8a89bee99f31d77798b7352bbd33f3642560cad18d86d372d4f",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/ZYgyPyfq/versions/h4m8J7w8/YungsExtras-1.20-Forge-4.0.3.jar",
+            "minecraftVersions": [
+                "1.20",
+                "1.20.1"
+            ],
+            "loaders": [
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "1.20-Forge-4.0.3",
+            "dependencies": [
+                {
+                    "id": "Ua7DFN59",
+                    "type": "REQUIRED"
+                }
+            ]
+        },
+        {
+            "name": "YUNG's Menu Tweaks",
+            "filename": "YungsMenuTweaks-1.20.1-Forge-1.0.2.jar",
+            "provider": "modrinth",
+            "projectId": "Hcy2DFKF",
+            "versionId": "3FmFt8jI",
+            "required": true,
+            "hash": "63085c7e9b668cb381bb2c654953d17420fab93d4be661879251ebc98de90ae1452e51dc7df5450539f5d13b06f48f3fae03f1130e92ae55c2fb098c92684495",
+            "hashFormat": "sha512",
+            "downloadMode": "url",
+            "url": "https://cdn.modrinth.com/data/Hcy2DFKF/versions/3FmFt8jI/YungsMenuTweaks-1.20.1-Forge-1.0.2.jar",
+            "minecraftVersions": [
+                "1.20.1"
+            ],
+            "loaders": [
+                "forge"
+            ],
+            "releaseType": "release",
+            "versionNumber": "1.20.1-Forge-1.0.2",
+            "dependencies": [
+                {
+                    "id": "Ua7DFN59",
+                    "type": "REQUIRED"
+                }
+            ]
+        }
+    ],
+    "optionalMods": [],
+    "resourcePacks": [],
+    "shaderPacks": [],
+    "configs": []
+}
