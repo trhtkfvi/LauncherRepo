@@ -1,6 +1,7 @@
 {
-  "enabled": false,
-  "title": "Maintenance",
-  "message": "Servers will be offline on Sunday from 18:00–20:00 UTC.",
-  "type": "warning"
+    "enabled": false,
+    "title": "Maintenance",
+    "message": "Servers are currently undergoing maintenance.",
+    "start": "2026-08-03T18:00:00Z",
+    "end": "2026-08-03T20:00:00Z"
 }
