@@ -1,1 +1,6 @@
-
+{
+  "enabled": false,
+  "title": "Maintenance",
+  "message": "Servers will be offline on Sunday from 18:00–20:00 UTC.",
+  "type": "warning"
+}
