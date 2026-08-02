@@ -1,1 +1,10 @@
-
+{
+  "enabled": true,
+  "title": "Welcome to Play Launcher!",
+  "message": "Version 1.0.0 is now available.",
+  "type": "info",
+  "button": {
+    "text": "Github",
+    "url": "https://github.com/trhtkfvi/Play-Launcher"
+  }
+}
