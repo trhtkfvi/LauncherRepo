@@ -1,7 +1,7 @@
 {
   "enabled": true,
   "title": "ברוכים הבאים!",
-  "message": "Version 1.0.0 is now available.",
+  "message": "'Welcome Bro.",
   "type": "info",
   "button": {
     "text": "Github",
